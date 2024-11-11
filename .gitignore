@@ -1,0 +1,4 @@
+# Python vitual environments and related
+.pyenv
+.venv
+venv
