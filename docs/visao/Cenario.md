@@ -25,6 +25,8 @@ Em meio à insatisfação dos usuários com a plataforma de submissão de códig
 6. As listas não possuem uma organização de fácil digestão pela user base: alguns notaram a falta de um sistema de pesquisa no site para ser possível encontrar diferentes exercícios. 
 
 Além disso, problemas que aumentam a fricção e prejudicam a usabilidade na plataforma, como a falta de atualização em tempo real do status dos submits dentro de um contest e a falta de polimento na interface gráfica da plataforma (como botões pequenos e não identificáveis, assim como a carência de um "dark/night mode") foram outros pontos levantados após discussões. 
+
+![Diagrama de Ishikawa](docs/visao/IshikawaD.jpeg)
  
 ## Desafios do Projeto
 
