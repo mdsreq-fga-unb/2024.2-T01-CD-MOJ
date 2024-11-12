@@ -8,6 +8,7 @@ nav:
       - visao/Cenario.md
       - visao/Solucao.md
       - visao/Estrategia.md
+      - visao/Cronograma.md
 
 theme:
   name: material
