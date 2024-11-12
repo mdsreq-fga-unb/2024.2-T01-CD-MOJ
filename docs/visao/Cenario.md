@@ -2,18 +2,11 @@
 
 ## Introdução ao negócio e contexto
 
-O "CD-MOJ - Contest Driven Meta Online Judge" [^1] é um online judge [^2], cujo foco está na realização de contests [^3]. Atualmente o sistema é utilizado majoritariamente por professores da Universidade de Brasília - Campus Gama, para a realização de listas de exercícios e provas, além do site em si a plataforma conta com um bot no telegram nomeado de "Mojinho" com o qual é possível extrair os logs e o código de uma submissão.
+O "CD-MOJ - Contest Driven Meta Online Judge" é um online judge, cujo foco está na realização de contests. Atualmente o sistema é utilizado majoritariamente por professores da Universidade de Brasília - Campus Gama, para a realização de listas de exercícios e provas, além do site em si a plataforma conta com um bot no telegram nomeado de "Mojinho" com o qual é possível extrair os logs e o código de uma submissão.
 
-A plataforma tem como público alvo desenvolvedores e programadores no geral em busca de resolver problemas computacionais, mais especificamente problemas relacionados a algoritmos, estruturas de dados, sistemas operacionais, arquitetura de computadores e planejamento [^4].
+A plataforma tem como público alvo desenvolvedores e programadores no geral em busca de resolver problemas computacionais, mais especificamente problemas relacionados a algoritmos, estruturas de dados, sistemas operacionais, arquitetura de computadores e planejamento.
 
-O sistema é atualmente mantido pelo professor Bruno César Ribas [^5] em colaboração com alunos da Universidade de Brasília - Campus Gama.
-
-[^1]: {https://moj.naquadah.com.br/cgi-bin/index.sh}
-[^2]: No nosso contexto, uma plataforma que avalia a correctude de um programa, ao resolver um problema em específico, também fornecido pela plataforma.
-[^3]: Conjunto de problemas que devem ser resolvidos em um intervalo de tempo limitado, onde um ou mais participantes competem entre si para ver quem resolve mais problemas em menos tempo.
-[^4]: Problemas de otimização e tomadas de decisão, como por exemplo definir uma estratégia ótima de passos para se resolver um problema.
-[^5]: Doutor, Mestre, Bacharel em Ciência da Computação pela Universidade Federal do Paraná (UFPR), Professor Adjunto na Universidade de Brasília - Gama.
-
+O sistema é atualmente mantido pelo professor Bruno César Ribas em colaboração com alunos da Universidade de Brasília - Campus Gama.
 
 ## Identificação da oportunidade ou problema
 
