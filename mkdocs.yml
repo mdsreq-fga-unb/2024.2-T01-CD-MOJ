@@ -11,7 +11,7 @@ nav:
       - visao/Equipe.md
       - visao/Licoes.md
   - "Apresentação":
-      - Apresentacao.md
+      - visao/Apresentacao.md
 
 theme:
   name: material
@@ -49,3 +49,11 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+plugins:
+  - mkdocs-video

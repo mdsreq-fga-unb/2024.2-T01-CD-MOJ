@@ -1,2 +1,4 @@
 # Requirements for MkDocs
 mkdocs-material==9.5.44
+mkdocs-video
+
