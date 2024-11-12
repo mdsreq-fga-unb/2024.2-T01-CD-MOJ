@@ -4,13 +4,14 @@ nav:
   - "Sobre":
       - index.md
   - "Visão de produto e projeto":
-      - visao/index.md
       - visao/Cenario.md
       - visao/Solucao.md
       - visao/Estrategia.md
       - visao/Cronograma.md
       - visao/Equipe.md
       - visao/Licoes.md
+  - "Apresentação":
+      - Apresentacao.md
 
 theme:
   name: material
