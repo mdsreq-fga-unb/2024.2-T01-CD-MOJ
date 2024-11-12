@@ -26,7 +26,7 @@ Em meio à insatisfação dos usuários com a plataforma de submissão de códig
 
 Além disso, problemas que aumentam a fricção e prejudicam a usabilidade na plataforma, como a falta de atualização em tempo real do status dos submits dentro de um contest e a falta de polimento na interface gráfica da plataforma (como botões pequenos e não identificáveis, assim como a carência de um "dark/night mode") foram outros pontos levantados após discussões.
 
-![Diagrama de Ishikawa](/visao/IshikawaD.jpeg)
+![Diagrama de Ishikawa](./IshikawaD.jpeg)
 
 ## Desafios do Projeto
 
