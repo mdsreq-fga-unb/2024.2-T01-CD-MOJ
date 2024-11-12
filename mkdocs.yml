@@ -10,6 +10,7 @@ nav:
       - visao/Estrategia.md
       - visao/Cronograma.md
       - visao/Equipe.md
+      - visao/Licoes.md
 
 theme:
   name: material
