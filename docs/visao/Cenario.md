@@ -1,4 +1,6 @@
-# Introdução ao negócio e contexto
+# Cenário atual do Cliente e do Negócio
+
+## Introdução ao negócio e contexto
 
 O "CD-MOJ - Contest Driven Meta Online Judge" [^1] é um online judge [^2], cujo foco está na realização de contests [^3]. Atualmente o sistema é utilizado majoritariamente por professores da Universidade de Brasília - Campus Gama, para a realização de listas de exercícios e provas, além do site em si a plataforma conta com um bot no telegram nomeado de "Mojinho" com o qual é possível extrair os logs e o código de uma submissão.
 

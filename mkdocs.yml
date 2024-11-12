@@ -6,6 +6,7 @@ nav:
   - "Visão de produto e projeto":
       - visao/index.md
       - visao/Cenario.md
+      - visao/Solucao.md
 
 theme:
   name: material
