@@ -44,10 +44,14 @@ Através de diálogos com o cliente e mantedor da plataforma foi evidenciado que
 
 Este perfil abrange educadores de faculdades e escolas técnicas que utilizam o CD-MOJ no ensino de suas disciplinas.
 
-- Homens e mulheres.
 - Possuem mestrado ou doutorado em Ciência da Computação ou áreas afins.
+- Homens e mulheres.
 - Faixa etária entre 25 e 42 anos.
 
-**Estudantes de programação e computação**: Estes são alunos de cursos de Ciência da Computação, Engenharia de Software e áreas afins, com idades variando entre 18 e 25 anos, que participam de competições de programação ou precisam realizar trabalhos e exercícios de suas disciplinas na plataforma. Muitos destes estudantes têm habilidades iniciais ou intermediárias e utilizam o CD-MOJ para resolver e aprimorar a resolução de problemas, algoritmos e programação competitiva. Desta forma, para esses usuários, o sistema deve proporcionar uma experiência de tal forma que permita realizar submissões de código e acompanhar feedback de forma rápida, ajudando-os a entender e corrigir seus erros de programação com autonomia.
+**Estudantes de nível superior ou técnico**:
 
-**Professores, tutores e organizadores de competições**: Este grupo inclui professores universitários e monitores que coordenam disciplinas de algoritmos, tais como estruturas de dados e programação avançada, bem como organizadores de eventos e competições de programação dentro de suas instituições. Assim, tendo responsabilidades de acompanhamento e avaliação, esses profissionais precisam de ferramentas que permitam criar listas de exercícios, organizar competições, gerenciar alunos e acessar relatórios de desempenho. Portanto, para eles, o CD-MOJ deve oferecer uma interface com seções claras para administração e monitoramento, reduzindo o tempo gasto em tarefas operacionais e permitindo um acesso direto aos dados e resultados dos estudantes.
+Alunos das disciplinas ministradas pelo perfil **"professores de instituições acadêmicas"** ou estudantes de programação no geral que buscam aprimorar suas habilidades de codificação.
+
+- Pouco ou nenhum contato com programação previamente
+- Homens e mulheres.
+- Faixa etária entre 18 e 30 anos.
