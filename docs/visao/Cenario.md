@@ -36,7 +36,13 @@ Através de diálogos com o cliente e mantedor da plataforma foi evidenciado que
 
 ## Segmentação de clientes
 
-**Instituições educacionais e departamentos acadêmicos**: Este perfil inclui as universidades, faculdades e escolas técnicas que adotam o CD-MOJ em disciplinas de programação. Assim, a plataforma ajuda essas instituições a oferecer uma infraestrutura centralizada para prática de programação e competições, que complementa o ensino teórico com uma abordagem prática. Como clientes indiretos, as instituições buscam uma plataforma que possibilite a integração com as atividades curriculares e que auxilie no desenvolvimento das habilidades técnicas dos alunos.
+**Professores(as) de instituições acadêmicas:**
+
+Este perfil abrange educadores de faculdades e escolas técnicas que utilizam o CD-MOJ no ensino de suas disciplinas.
+
+- Homens e mulheres.
+- Possuem mestrado ou doutorado em Ciência da Computação ou áreas afins.
+- Faixa etária entre 25 e 42 anos.
 
 **Estudantes de programação e computação**: Estes são alunos de cursos de Ciência da Computação, Engenharia de Software e áreas afins, com idades variando entre 18 e 25 anos, que participam de competições de programação ou precisam realizar trabalhos e exercícios de suas disciplinas na plataforma. Muitos destes estudantes têm habilidades iniciais ou intermediárias e utilizam o CD-MOJ para resolver e aprimorar a resolução de problemas, algoritmos e programação competitiva. Desta forma, para esses usuários, o sistema deve proporcionar uma experiência de tal forma que permita realizar submissões de código e acompanhar feedback de forma rápida, ajudando-os a entender e corrigir seus erros de programação com autonomia.
 
