@@ -30,7 +30,7 @@ O **diagrama de Ishikawa** a seguir apresenta a relação de causa e efeito dos 
 
 <iframe frameborder="0" style="width:100%;height:1087px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Ishikawa.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VoB8x6kYtdlWgaWsdw_P5z6ERA_5mkL_%26export%3Ddownload"></iframe>
 
-Em resumo, o principal problema do CD-MOJ é a "insatisfação dos usuários devido à carência de funcionalidades essenciais".
+Em resumo, os problemas do CD-MOJ são "a ausência de funcionalidades essenciais e limitações na experiência do usuário".
 
 ## Desafios do Projeto
 
