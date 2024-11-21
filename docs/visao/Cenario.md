@@ -12,21 +12,25 @@ O sistema é atualmente mantido pelo professor Bruno César Ribas em colaboraç�
 
 Em meio à insatisfação dos usuários com a plataforma de submissão de código, identificou-se vários pontos de melhoria no ecossistema do MOJ. Após discussão entre membros da equipe, análise de enquetes de semestres passados em relação ao MOJ e ideias do professor mantenedor da plataforma, identificamos os seguintes problemas:
 
-1. Não é possível recuperar arquivos anteriormente submetidos à plataforma diretamente pela mesma: ao fazer um submit para um contest, o arquivo com o código enviado só pode ser recuperado através do Mojinho. Como o MOJ é uma plataforma focada no aprendizado, convém que o estudante possa analisar posteriormente o que foi enviado à plataforma sem tanta fricção.
+1. **Não é possível recuperar arquivos anteriormente submetidos à plataforma diretamente pela mesma:** ao fazer um submit para um contest, o arquivo com o código enviado só pode ser recuperado através do Mojinho. Como o MOJ é uma plataforma focada no aprendizado, convém que o estudante possa analisar posteriormente o que foi enviado à plataforma sem tanta fricção.
 
-2. Não é possível verificar com mais detalhes os casos de teste que falharam na sua submissão: novamente, o MOJ dá feedback limitado sobre submissões do usuário que tiveram falhas e erros no envio de um exercício, e convém que haja atenção a esse aspecto para um melhor aprendizado dos estudantes.
+1. **Não é possível verificar com mais detalhes os casos de teste que falharam na sua submissão:** novamente, o MOJ dá feedback limitado sobre submissões do usuário que tiveram falhas e erros no envio de um exercício, e convém que haja atenção a esse aspecto para um melhor aprendizado dos estudantes.
 
-3. Há a necessidade de sair do site para ter alguns arquivos de log: o "Mojinho" existe unicamente na plataforma Telegram, dificultando o acesso ao usuário final.
+1. **Os participantes de um contest não tem um lugar centralizado para a discussão:** do problema e seus detalhes com a turma: normalmente a comunicação entre alunos e monitores/ajudantes ocorre no WhatsApp e similares.
 
-4. O participante do contest não tem um lugar centralizado para a discussão do problema e seus detalhes com a turma: normalmente a comunicação entre alunos e monitores/ajudantes ocorre no WhatsApp e similares.
+1. O usuário da plataforma precisa de um editor de texto ou IDE para escrever o código o qual fará o submit, o que faz com que seja necessário alternar entre diferentes janelas para desenvolver uma solução na plataforma.
 
-5. O usuário da plataforma precisa de um editor de texto ou IDE para escrever o código o qual fará o submit, o que faz com que seja necessário alternar entre diferentes janelas para desenvolver uma solução na plataforma.
+1. **Ausência de uma IDE (Integrated development environment):** o usuário precisa sair da plataforma para desenvolver o código, alternando entre diversas janelas, aumentando a fricção ao se utilizar a plataforma.
 
-6. As listas não possuem uma organização de fácil digestão pela user base: alguns notaram a falta de um sistema de pesquisa no site para ser possível encontrar diferentes exercícios.
+1. **As listas não possuem uma organização de fácil digestão pela user base:** alguns notaram a falta de um sistema de pesquisa no site para ser possível encontrar diferentes exercícios.
 
-Além disso, problemas que aumentam a fricção e prejudicam a usabilidade na plataforma, como a falta de atualização em tempo real do status dos submits dentro de um contest e a falta de polimento na interface gráfica da plataforma (como botões pequenos e não identificáveis, assim como a carência de um "dark/night mode") foram outros pontos levantados após discussões.
+1. **Necessidade de atualização manual da página para obter o veredito da questão:** Após a submissão de um código, o usuário precisa recarregar a página repetidamente para visualizar o veredito do exercício. A automatização desse processo poderia melhorar a experiência do usuário.
 
-![Diagrama de Ishikawa](./IshikawaD.jpeg)
+O **diagrama de Ishikawa** a seguir apresenta a relação de causa e efeito dos problemas mencionados.
+
+<iframe frameborder="0" style="width:100%;height:1087px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Ishikawa.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1VoB8x6kYtdlWgaWsdw_P5z6ERA_5mkL_%26export%3Ddownload"></iframe>
+
+Em resumo, os problemas do CD-MOJ são "a ausência de funcionalidades essenciais e limitações na experiência do usuário".
 
 ## Desafios do Projeto
 
@@ -36,8 +40,18 @@ Através de diálogos com o cliente e mantedor da plataforma foi evidenciado que
 
 ## Segmentação de clientes
 
-**Instituições educacionais e departamentos acadêmicos**: Este perfil inclui as universidades, faculdades e escolas técnicas que adotam o CD-MOJ em disciplinas de programação. Assim, a plataforma ajuda essas instituições a oferecer uma infraestrutura centralizada para prática de programação e competições, que complementa o ensino teórico com uma abordagem prática. Como clientes indiretos, as instituições buscam uma plataforma que possibilite a integração com as atividades curriculares e que auxilie no desenvolvimento das habilidades técnicas dos alunos.
+**Professores(as) de instituições acadêmicas:**
 
-**Estudantes de programação e computação**: Estes são alunos de cursos de Ciência da Computação, Engenharia de Software e áreas afins, com idades variando entre 18 e 25 anos, que participam de competições de programação ou precisam realizar trabalhos e exercícios de suas disciplinas na plataforma. Muitos destes estudantes têm habilidades iniciais ou intermediárias e utilizam o CD-MOJ para resolver e aprimorar a resolução de problemas, algoritmos e programação competitiva. Desta forma, para esses usuários, o sistema deve proporcionar uma experiência de tal forma que permita realizar submissões de código e acompanhar feedback de forma rápida, ajudando-os a entender e corrigir seus erros de programação com autonomia.
+Este perfil abrange educadores de faculdades e escolas técnicas que utilizam o CD-MOJ no ensino de suas disciplinas.
 
-**Professores, tutores e organizadores de competições**: Este grupo inclui professores universitários e monitores que coordenam disciplinas de algoritmos, tais como estruturas de dados e programação avançada, bem como organizadores de eventos e competições de programação dentro de suas instituições. Assim, tendo responsabilidades de acompanhamento e avaliação, esses profissionais precisam de ferramentas que permitam criar listas de exercícios, organizar competições, gerenciar alunos e acessar relatórios de desempenho. Portanto, para eles, o CD-MOJ deve oferecer uma interface com seções claras para administração e monitoramento, reduzindo o tempo gasto em tarefas operacionais e permitindo um acesso direto aos dados e resultados dos estudantes.
+- Possuem mestrado ou doutorado em Ciência da Computação ou áreas afins.
+- Homens e mulheres.
+- Faixa etária entre 25 e 42 anos.
+
+**Estudantes de nível superior ou técnico**:
+
+Alunos das disciplinas ministradas pelo perfil **"professores de instituições acadêmicas"** ou estudantes de programação no geral que buscam aprimorar suas habilidades de codificação.
+
+- Pouco ou nenhum contato com programação previamente
+- Homens e mulheres.
+- Faixa etária entre 18 e 30 anos.
