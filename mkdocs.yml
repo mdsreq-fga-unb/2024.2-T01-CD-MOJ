@@ -13,8 +13,16 @@ nav:
   - "Apresentação":
       - visao/Apresentacao.md
 
+repo_url: https://github.com/mdsreq-fga-unb/2024.2-T01-CD-MOJ/
+repo_name: mdsreq-fga-unb/2024.2-T01-CD-MOJ/
+
 theme:
+  palette:
+    primary: white
+
   name: material
+
+  logo: assets/images/logo.svg
 
   language: pt-BR
 
@@ -27,15 +35,11 @@ theme:
     - navigation.expantion
     - search.share
     - search.suggest
-    - serach.highlight
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
-    - content.tabs.link
+    - search.highlight
     - toc.follow
 
   icon:
-    repo: fontawesome/brands/gitlab
+    repo: fontawesome/brands/github
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -56,4 +60,5 @@ markdown_extensions:
   - pymdownx.blocks.caption
 
 plugins:
+  - search
   - mkdocs-video
