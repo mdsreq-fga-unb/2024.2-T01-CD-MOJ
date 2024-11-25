@@ -2,30 +2,36 @@
 
 ## Objetivos do produto
 
-A solução proposta visa:
+Objetivo principal:
+- Integração do BOT Mojinho na plataforma do CD-MOJ, facilitando o acesso dos usuários aos dados de login necessários para envio de questões, de forma prática e centralizada.
 
-1. Diminuir a carência de funcionalidades evidenciadas por vários usuários na plataforma.
+Objetivos Secundários:
 
-2. Tornar o CD-MOJ um juiz online de fácil utilização para nosso público-alvo.
+1. Facilitar o desenvolvimento de código diretamente na plataforma: Por meio da implementação de uma IDE integrada, os participantes poderão escrever, testar e submeter seus códigos sem a necessidade de ferramentas externas.
+2. Promover a troca de conhecimento e a colaboração: A criação de uma aba de Discussão centralizará diálogos sobre exercícios, conceitos acadêmicos e estratégias, fortalecendo o aprendizado colaborativo entre os usuários.
+
 
 ## Características da solução
 
-A solução proposta pretende resolver os problemas elencados pelos alunos com:
-
-- Implementação de um novo sistema de armazenamento e acesso de arquivos já enviados à plataforma pelo participante do contest.
-
-- Implementação de uma nova aba ao fazer o submit chamada Test Cases, que informa alguns testes do exercício que passaram ou falharam para o submit.
-
-- Integração do BOT Mojinho na plataforma do CD-MOJ, facilitando o acesso de logs pelo usuário.
-
-- Implementação de uma nova aba Discussão, que centraliza o debate sobre exercícios e conceitos de estrutura de dados, fundamentos de arquitetura, entre outras disciplinas.
-
-- Implementação da funcionalidade de uma IDE (Integrated Development Environment) dentro do CD-MOJ para que o participante do contest possa produzir o código diretamente na plataforma.
-
-- Implementação de um sistema de tags, assim como um sistema de pesquisa por exercícios que o usuário tem acesso.
-
-- Tornar a página de submits reativa, assim dispensando refreshes na página para obter resultados de "aceito" ou "não aceito" nos submits.
-- Repaginar uma parcela da interface gráfica, deixando o site mais facilmente digerível para nosso público-alvo.
+Para alcançar os objetivos estabelecidos, serão implementadas as seguintes funcionalidades:
+1. Integração do BOT Mojinho:
+- O BOT Mojinho será diretamente incorporado à plataforma do CD-MOJ.
+- Ele permitirá que os usuários acessem, de forma ágil e eficiente, os dados necessários para realizar o login e enviar suas questões.
+- Essa integração tornará o processo mais intuitivo e eliminará etapas desnecessárias, centralizando a funcionalidade dentro da própria interface do CD-MOJ.
+2. IDE Integrada:
+- Um ambiente de desenvolvimento integrado (IDE) será incorporado à plataforma, permitindo aos usuários desenvolverem seus códigos diretamente no CD-MOJ.
+- Funcionalidades principais:
+    - Editor de código com suporte a linguagens como Python, Java e C++.
+    - Execução de testes locais, para validar o funcionamento do código antes da submissão.
+    - Submissão direta para o sistema de avaliação do CD-MOJ.
+- Essa ferramenta eliminará a dependência de softwares externos, otimizando o fluxo de trabalho dos participantes.
+3. Aba de Discussão:
+- Uma nova seção será criada para reunir os usuários em um espaço de diálogo e colaboração.
+- Principais recursos:
+    - Discussões sobre estratégias para resolver exercícios.
+    - Debates sobre conceitos acadêmicos em disciplinas como algoritmos e estrutura de dados.
+    - Resolução coletiva de dúvidas e troca de experiências entre os participantes.
+- A aba será moderada para garantir um ambiente organizado e produtivo.
 
 ## Tecnologias a serem utilizadas
 
