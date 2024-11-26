@@ -1,16 +1,21 @@
 # Solução Proposta
+## Cenário Atual e Objetivos da Solução  
 
-## Objetivos do produto
-### Objetivo Principal  
-- **Integração do BOT Mojinho** na plataforma do CD-MOJ, facilitando o acesso dos usuários aos dados de login necessários para envio de questões, de forma prática e centralizada.  
+O **CD-MOJ** é amplamente utilizado por professores e alunos da Universidade de Brasília – Campus Gama como ferramenta para realização de exercícios, provas e contests relacionados a disciplinas como algoritmos, estruturas de dados e arquitetura de computadores. Apesar de ser funcional, o sistema enfrenta limitações que impactam a experiência do usuário e dificultam sua adoção por um público mais amplo.  
 
-### Objetivos Secundários  
+Entre os problemas identificados estão a dependência do **BOT Mojinho** no Telegram para acessar logs e códigos de submissões, a ausência de funcionalidades críticas como uma **IDE integrada** e um espaço centralizado para discussões, além de dificuldades em organizar listas e acompanhar o status das submissões em tempo real. Esses fatores criam uma experiência fragmentada, reduzindo o potencial da plataforma como um ambiente de aprendizado completo.  
 
+Com base nesse diagnóstico, foi definido o seguinte **objetivo principal**:  
+- **Integração do BOT Mojinho na plataforma do CD-MOJ:** Essa funcionalidade eliminará a necessidade de acesso externo ao Telegram para obter dados de login e envio de questões, centralizando esse processo dentro da própria plataforma. Isso visa simplificar o fluxo de trabalho e tornar a solução mais intuitiva e eficiente.  
+
+Além disso, foram definidos **objetivos secundários** para endereçar outras limitações críticas:  
 1. **Facilitar o desenvolvimento de código diretamente na plataforma:**  
-   Por meio da implementação de uma **IDE integrada**, os participantes poderão escrever, testar e submeter seus códigos sem a necessidade de ferramentas externas.  
+   Com a implementação de uma **IDE integrada**, os participantes poderão desenvolver, testar e submeter seus códigos sem sair do CD-MOJ, eliminando a necessidade de alternar entre diferentes ferramentas e aumentando a produtividade.  
 
 2. **Promover a troca de conhecimento e a colaboração:**  
-   A criação de uma **aba de Discussão** centralizará diálogos sobre exercícios, conceitos acadêmicos e estratégias, fortalecendo o aprendizado colaborativo entre os usuários.  
+   A criação de uma **aba de Discussão** permitirá aos usuários interagir diretamente na plataforma, fortalecendo o aprendizado colaborativo e centralizando o diálogo sobre exercícios e conceitos relacionados às disciplinas.  
+
+Esses objetivos visam não apenas resolver as principais limitações da plataforma, mas também aprimorar a experiência do usuário, tornando o CD-MOJ mais atrativo e funcional para professores e estudantes. Ao propor soluções viáveis que utilizam tecnologias acessíveis, o projeto busca aumentar a eficiência e usabilidade da plataforma, além de consolidar o CD-MOJ como uma ferramenta diferenciada e competitiva no mercado de juízes online.  
 
 
 ## Características da solução
@@ -29,7 +34,7 @@ Para alcançar os objetivos estabelecidos, serão implementadas as seguintes fun
      - Submissão direta para o sistema de avaliação do CD-MOJ.
    - Essa ferramenta eliminará a dependência de softwares externos, otimizando o fluxo de trabalho dos participantes.
 
-3. **Aba de Discussão:**S
+3. **Aba de Discussão:**
    - Uma nova seção será criada para reunir os usuários em um espaço de diálogo e colaboração.
    - **Principais recursos:**
      - Discussões sobre estratégias para resolver exercícios.
