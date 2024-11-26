@@ -12,6 +12,8 @@ nav:
       - visao/Licoes.md
   - "Apresentação":
       - visao/Apresentacao.md
+  - "Feedback Unidade 2":
+      - feedback/feedback.md
 
 repo_url: https://github.com/mdsreq-fga-unb/2024.2-T01-CD-MOJ/
 repo_name: mdsreq-fga-unb/2024.2-T01-CD-MOJ/
