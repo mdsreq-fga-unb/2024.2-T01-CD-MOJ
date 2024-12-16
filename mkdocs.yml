@@ -18,6 +18,7 @@ nav:
   - "Unidade 2":
       - us/Backlog.md
       - us/priorizacao.md
+      - us/engenharia-requisitos.md
 
 repo_url: https://github.com/mdsreq-fga-unb/2024.2-T01-CD-MOJ/
 repo_name: mdsreq-fga-unb/2024.2-T01-CD-MOJ/
