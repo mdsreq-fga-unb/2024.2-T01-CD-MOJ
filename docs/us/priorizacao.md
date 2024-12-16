@@ -34,6 +34,23 @@ A pontuação atribuída a cada **US** pela equipe em conjunto pode ser visualiz
 | US26 :star: | 4                | 2            | 4     |
 | US27 :star: | 4                | 2            | 4     |
 
+### Miro
+
+<iframe src="https://miro.com/app/board/uXjVL7x-bvg=/" width="100%" height="600" frameborder="0"></iframe>
+
+## MVP 
+
+| **Número** | **US**  | **História de Usuário**                                       |
+|------------|---------|--------------------------------------------------------------|
+| 1          | US01   | Como estudante, quero visualizar um log detalhado de runtime das minhas submissões, para entender melhor por que meu código falhou ou teve sucesso. |
+| 2          | US02   | Como estudante, quero poder salvar o log de runtime para futuras referências ou compartilhamento com outros usuários para que possa utilizar como aprendizado ou colaboração. |
+| 3          | US26   | Como professor, quero habilitar/desabilitar o a recuperação de log de submissão pro contest, para permitir/proibir os alunos de term acesso ao recurso. |
+| 4          | US27   | Como professor, quero habilitar/desabilitar o a recuperação de código de submissão pro contest, para  permitir/proibir os alunos de term acesso ao recurso. |
+| 5          | US07   | Como estudante, quero customizar casos de teste do problema com o código feito na plataforma para entender melhor os problemas da plataforma. |
+| 6          | US03   | Como estudante, quero recuperar o código das minhas submissões anteriores diretamente na plataforma, para poder revisar meu progresso e entender erros passados. |
+| 7          | US04   | Como estudante, eu quero poder baixar o código-fonte de qualquer submissão anterior diretamente da plataforma, para que eu possa utilizá-lo para revisão e como base para novos códigos. |
+| 8          | US06   | Como professor, quero ser capaz de habilitar ou desabilitar casos de teste padrão para uma lista de exercícios específica para modificar a dificuldade de resolução dos exercícios. |
+
 ## MoSCoW (Must-have, Should-have, Could-have, Won't-have)
 
 Das histórias de usuário mencionadas na seção Backlog, em consenso com o time utilizando critérios de complexidade técnica e valor de negócio, foi feita a divisão entre cada categoria de priorização do framework MoSCoW da seguinte forma:
