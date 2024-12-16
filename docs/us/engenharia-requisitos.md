@@ -42,8 +42,6 @@
 ### Organização e atualização de requisitos
 
 - **Product Backlog Building (PBB):** Será feito a listagem dos requisitos a serem atingidos, registro do progresso ao decorrer do projeto, assim como quais serão as prioridades.
-- **User Story Mapping (USM):** O USM será a representação dos requi-
-  sitos do ponto de vista do usuário final.
 - **MoSCoW:** O MoSCoW será utilizado para identificar as prioridades e
   pontos críticos do projeto.
 

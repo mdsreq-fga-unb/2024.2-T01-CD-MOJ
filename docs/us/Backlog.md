@@ -56,7 +56,7 @@
 - **História 1:** [*US10*] - Como estudante, quero criar e editar o código referente a submissão diretamente na plataforma para evitar que eu precise abrir uma IDE auxiliar (VSCode, Vim).]
 - **História 2:** [*US11*] - Como estudante, quero submeter o código diretamente da IDE na plataforma, para verificar se minha solução está correta.
 
-### Épico 1: A IDE deve dar suporte para : Java, C++, Python, Rust, MIPS, RISC-V
+### Épico 4: A IDE deve dar suporte para : Java, C++, Python, Rust, MIPS, RISC-V
 - **História 1:** [*US12*] - Como estudante, quero poder escrever e submeter código de várias linguagens de programação diferentes, para poder validar e ampliar meus conhecimentos.
 
 ## Tema 3: Fórum de discussão sobre problema
