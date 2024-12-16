@@ -26,7 +26,7 @@
 ### Declaração de requisitos
 
 - **Documento de visão de produto:** Documento que servirá como norte durante todo o projeto, responsável por centralizar as informações rele- vantes a respeito dos requisitos.
-- **Feature:** Será feito um detalhamento de como o usuário se releaciona com as funcionalidades propostas.
+- **Temas, Épicos e Histórias de Usuário:** A declaração do Backlog será realizada por meio da utilização de histórias de usuários. Desta maneira, pegaremos os requisitos estabelecidos e identificaremos se eles se encaixam em grandes histórias, como Épicos ou Temas, ou histórias de usuários que derivam destes. 
 
 ### Representação de requisitos
 
@@ -57,7 +57,7 @@
 |                  | Representação                           | Representar de forma visual como os novos requisitos estarão em interface.        | Prototipação                           | Prototipação em papel                                              |
 |                  | Verificação e Validação                 | Validar se os requisitos estão de acordo com o projeto.                           | Feedback                               | Lista de Requisitos adequados                                      |
 | **Elaboração**   |                                         |                                                                                   |                                        |                                                                    |
-|                  | Declaração                              | Representar o requisito                                                           | Feature                                | Definição dos Features                                             |
+|                  | Declaração                              | Representar o requisito                                                           | Temas, Épicos e Histórias de Usuário                                | Definição das US                                         |
 |                  | Verificação e validação                 | Foco em validar se os requisitos em si estão bem definidos                        | DoD/DoR                                | Requisitos bem definidos, checklist                                |
 |                  | Organização e atualização de requisitos | Manter registro dos requisitos                                                    | MoSCoW                                 | Lista de prioridades                                               |
 | **Construção**   |                                         |                                                                                   |                                        |                                                                    |
