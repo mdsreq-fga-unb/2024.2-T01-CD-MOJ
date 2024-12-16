@@ -4,6 +4,29 @@
 
 <iframe src="https://miro.com/app/board/uXjVL7x-bvg=/" width="100%" height="600" frameborder="0"></iframe>
 
+
+## Quadro de Requisitos
+| **ID**   | **Tipo**         | **Descrição**                                                         |
+|----------|------------------|---------------------------------------------------------------------|
+| RF01     | Funcional        | Exibir log de runtime para o usuário                                |
+| RF02     | Funcional        | Recuperar código de submissão                                       |
+| RF03     | Funcional        | Executar casos de teste padrão diretamente na plataforma            |
+| RF04     | Funcional        | Executar casos de teste customizados pela plataforma                |
+| RF05     | Funcional        | Editar código diretamente na plataforma                             |
+| RF06     | Funcional        | Fazer submissão diretamente pela IDE                                |
+| RF07     | Funcional        | Criar tópicos no fórum                                              |
+| RF08     | Funcional        | Organizar tópicos                                                  |
+| RF09     | Funcional        | Editar post no fórum                                               |
+| RF10     | Funcional        | Adicionar tags                                                    |
+| RF11     | Funcional        | Remover post do fórum                                              |
+| RF12     | Funcional        | Marcar post como resolvido                                         |
+| RF13     | Funcional        | Enviar notificações aos usuários                                   |
+| RF14     | Funcional        | Realizar busca dentre os problemas                                 |
+| RNF01    | Não Funcional    | A IDE deve dar suporte para: Java, C++, Python, Rust, MIPS, RISC-V  |
+| RNF02    | Não Funcional    | Criar/editar código na IDE                                         |
+| RNF03    | Não Funcional    | O fórum de discussões deve permitir facilidade de acesso por uma aba |
+
+
 ## Backlog - Épicos, Temas e Histórias de Usuários
 
 ## Tema 1: Integração do mojinho à plataforma
