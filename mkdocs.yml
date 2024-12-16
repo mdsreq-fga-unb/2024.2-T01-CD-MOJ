@@ -16,6 +16,7 @@ nav:
       - visao/Apresentacao.md
 
   - "Unidade 2":
+      - us/DoR_DoD.md
       - us/Backlog.md
       - us/priorizacao.md
       - us/engenharia-requisitos.md
