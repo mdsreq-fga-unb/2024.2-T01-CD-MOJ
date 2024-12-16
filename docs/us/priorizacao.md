@@ -1,6 +1,6 @@
 # Priorização
 
-Considerando que o **valor de negócio** pode variar de 1 (pouco valor agregado) e 5 (muito valor agregado), e a **complexidade** variando de 1 (fácil implementação), a 5 (difícil implementação), a pontuação de uma us é dada por : $\frac{2 (\text{Valor de negócio})}{\text{Complexidade}}$.
+Considerando que o **valor de negócio** pode variar de 1 (muito baixo valor agregado), 2 (baixo valor agregado), 3 (valor agregado médio), 4 (alto valor agregado) e 5 (muito alto valor agregado), e a **complexidade** variando de 1 (muito fácil implementação), 2 (fácil implementação), 3 (implementação regular/normal), 4 (difícil implementação) a 5 (muito difícil implementação), a pontuação de uma us é dada por : $\frac{2 (\text{Valor de negócio})}{\text{Complexidade}}$.
 
 A pontuação atribuída a cada **US** pela equipe em conjunto pode ser visualizada na tabela a seguir.
 
