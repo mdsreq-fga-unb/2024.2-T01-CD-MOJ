@@ -1,5 +1,10 @@
 # Backlog
 
+## Quadro do Miro 
+
+<iframe src="https://miro.com/app/board/uXjVL7x-bvg=/" width="100%" height="600" frameborder="0"></iframe>
+
+## Backlog - Épicos, Temas e Histórias de Usuários
 
 ## Tema 1: Integração do mojinho à plataforma
 
@@ -38,22 +43,22 @@
 - **História 2:** [*US14*] - Como estudante, eu quero poder adicionar tags aos meus posts para que outros usuários possam encontrar meus posts de forma mais fácil.
 - **História 3:** [*US15*] - Como estudante, quero organizar tópicos em categorias e subtópicos no fórum, para facilitar a navegação e a busca.
 
-### Épico 1: Editar post no fórum
+### Épico 2: Editar post no fórum
 - **História 1:** [*US16*] - Como estudante, quero editar os tópicos ou posts que eu criei no fórum, para corrigir erros ou adicionar informações importantes.
 - **História 2:** [*US17*] - Como estudante, quero visualizar o histórico de edições de um post, para rastrear alterações realizadas.
 
-### Épico 1: Remover post do fórum
+### Épico 3: Remover post do fórum
 - **História 1:** [*US18*] - Como estudante, quero remover posts que eu criei no fórum, para que eles não sejam mais visualizáveis por outros usuários.
 - **História 2:** [*US19*] - Como estudante, quero remover respostas que não agregam a pergunta feita no fórum, para que não tenham muitas respostas sem sentido.
 - **História 3:** [*US20*] - Como professor ou monitor, quero remover posts inadequados do fórum para estabelecer controle na plataforma.
 
-### Épico 1: Responder post no fórum
+### Épico 4: Responder post no fórum
 - **História 1:** [*US21*]- Como estudante, quero responder a tópicos no fórum, para contribuir com soluções ou discussões.
 - **História 2:** [*US22*] - Como estudante, quero mencionar outros usuários ao responder posts, para chamar a atenção deles para a discussão.
 - **História 3:** [*US23*] - Como estudante, quero receber uma notificação quando responderem ao meu post para que possa estar sempre atualizado.
 
-### Épico 1: Realizar Busca dentre os problemas
+### Épico 5: Realizar Busca dentre os problemas
 - **História 1:** [*US24*] - Como estudante, quero buscar os problemas via "fuzzyfinder", para encontrar mais rapidamente os exercícios que quero.
 
-### Épico 1: O fórum de discussões deve permitir facilidade de acesso aos usuários por meio de uma aba
+### Épico 6: O fórum de discussões deve permitir facilidade de acesso aos usuários por meio de uma aba
 - **História 1:** [*US25*] - Como usuário, quero poder acessar o fórum de discussões a qualquer momento, através de uma aba de fácil localização na interface principal.
