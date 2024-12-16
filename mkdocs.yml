@@ -3,6 +3,7 @@ site_name: CD-MOJ Requisitos
 nav:
   - "Sobre":
       - index.md
+
   - "Visão de produto e projeto":
       - visao/Cenario.md
       - visao/Solucao.md
@@ -10,10 +11,15 @@ nav:
       - visao/Cronograma.md
       - visao/Equipe.md
       - visao/Licoes.md
+
   - "Apresentação":
       - visao/Apresentacao.md
+
   - "Feedback Unidade 2":
       - feedback/feedback.md
+
+  - "User Story":
+      - us/priorizacao.md
 
 repo_url: https://github.com/mdsreq-fga-unb/2024.2-T01-CD-MOJ/
 repo_name: mdsreq-fga-unb/2024.2-T01-CD-MOJ/
@@ -60,7 +66,16 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
   - mkdocs-video
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
