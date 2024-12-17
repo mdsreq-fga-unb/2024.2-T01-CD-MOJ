@@ -12,7 +12,7 @@ nav:
       - visao/Equipe.md
       - visao/Licoes.md
 
-  - "Apresentação":
+  - "Apresentação (Entrega 1)":
       - visao/Apresentacao.md
 
   - "Unidade 2":
@@ -20,6 +20,7 @@ nav:
       - us/Backlog.md
       - us/priorizacao.md
       - us/DoR_DoD.md
+      - us/Apresentacao.md
 
 repo_url: https://github.com/mdsreq-fga-unb/2024.2-T01-CD-MOJ/
 repo_name: mdsreq-fga-unb/2024.2-T01-CD-MOJ/
