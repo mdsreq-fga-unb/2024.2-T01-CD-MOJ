@@ -1,10 +1,11 @@
 # DoR e DoD
 
-No projeto, utilizamos as técnicas DoR (Definition of Ready) e DoD (Definition of Done) para garantir alinhamento, qualidade e eficiência no desenvolvimento.
+No projeto, utilizaremos as técnicas DoR (Definition of Ready) e DoD (Definition of Done) para garantir alinhamento, qualidade e eficiência no desenvolvimento. Desta forma, temos que:
 
 DoR (Definition of Ready): Define os pré-requisitos necessários para que uma tarefa ou funcionalidade esteja pronta para ser desenvolvida pelo time.
+
 DoD (Definition of Done): Estabelece os critérios que uma tarefa ou funcionalidade precisa atender para ser considerada concluída e entregue com sucesso.
-Abaixo, detalhamos os critérios definidos para cada uma dessas práticas no projeto.
+Abaixo, detalhamos os critérios definidos para cada uma dessas práticas no projeto:
 
 ## Critérios para verificar o DoR (Definition of Ready):
 
