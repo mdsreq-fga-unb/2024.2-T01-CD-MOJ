@@ -16,7 +16,6 @@
 - **Entrevista:** A entrevista conduzida com o cliente possui como objetivo identificar os problemas, desejos e necessidades do projeto, extraindo in- formações que nos permita construir os requisitos para o CD-MOJ.
 - **Brainstorming:** Essa técnica será utilizada para que o grupo levante o máximo possível de ideias sobre os requisitos do projeto.
 - **Grupo focal:** Reunindo o grupo, teremos a possibilidade de discutir sobre os pontos extraídos da entrevista e das ideias produzidas pelo Brainstor- ming, descobrindo mais requisitos que são adequados ao projeto.
-- **Análise de personas:** Através de pesquisas realizadas sobre a plataforma foi identificado as personas do nosso projeto.
 
 ### Análise e consenso
 
