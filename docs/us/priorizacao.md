@@ -57,7 +57,7 @@ Das histórias de usuário mencionadas na seção Backlog, em consenso com o tim
 
 | Priorização | Histórias de Usuário | Sintetização das histórias |
 | ----------- | ---------------- | ---- |
-| Must-have   | US01, US02, US03, US04, US05, US06, US07, US26 | Funcionalidades relacionadas à visualização/persistência de logs e códigos de submissões, execução de casos de teste padrão e customizados na plataforma, assim como mecanismos de controle por parte do professor que administra a lista na plataforma. |
+| Must-have   | US01, US02, US03, US04, US06, US07, US26 | Funcionalidades relacionadas à visualização/persistência de logs e códigos de submissões, execução de casos de teste padrão e customizados na plataforma, assim como mecanismos de controle por parte do professor que administra a lista na plataforma. |
 | Should-have | US09, US13, US16, US18, US20, US21 | Funcionalidades relacionadas à criação, edição, remoção e visualização de posts sobre exercícios no fórum, assim como controles adicionais dados a monitores de disciplinas e professores na plataforma. |
-| Could-have  | US08, US11, US12, US14, US15, US19, US22 | Funcionalidades relacionadas ao compartilhamento de testes customizados pela plataforma, integração de um ambiente de desenvolvimento dentro da plataforma, melhora de organização em tópicos em uma aba 'Discussão' no MOJ, assim como controle adicional de usuários finais sobre posts feitos nessa aba. |
+| Could-have  | US05, US08, US11, US12, US14, US15, US19, US22 | Funcionalidades relacionadas ao compartilhamento de testes customizados pela plataforma, integração de um ambiente de desenvolvimento dentro da plataforma, melhora de organização em tópicos em uma aba 'Discussão' no MOJ, assim como controle adicional de usuários finais sobre posts feitos nessa aba. |
 | Won't-have  | US23, US17 | Histórias relacionadas à interface gráfica e melhora de experiência de usuário na plataforma. |
