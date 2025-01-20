@@ -34,26 +34,26 @@
 ### Épico 1: Exibir log de runtime para o usuário
 - **História 1:** [*US01*] - Como estudante, quero visualizar um log detalhado de runtime das minhas submissões, para entender melhor por que meu código falhou ou teve sucesso.
 - **História 2:** [*US02*] - Como estudante, quero poder salvar o log de runtime para futuras referências ou compartilhamento com outros usuários para que possa utilizar como aprendizado ou colaboração.
-- **História 3:** [*US26*] - Como professor, quero habilitar/desabilitar o a recuperação de log de submissão pro contest, para permitir/proibir os alunos de term acesso ao recurso.
+- **História 3:** [*US26*] - Como professor, quero atualizar o status da recuperação de log de submissão pro contest, para gerenciar o acesso dos alunos a esse recurso.
 
 ### Épico 2: Recuperar código de submissão
 - **História 1:** [*US03*] - Como estudante, quero recuperar o código das minhas submissões anteriores diretamente na plataforma, para poder revisar meu progresso e entender erros passados.
 - **História 2:** [*US04*] - Como estudante, eu quero poder baixar o código-fonte de qualquer submissão anterior diretamente da plataforma, para que eu possa utilizá-lo para revisão e como base para novos códigos.
-- **História 3:** [*US27*] - Como professor, quero habilitar/desabilitar o a recuperação de código de submissão pro contest, para  permitir/proibir os alunos de term acesso ao recurso.
+- **História 3:** [*US27*] - Como professor, quero controlar a recuperação de código de submissão pro contest, para  permitir ou proibir os alunos de terem acesso ao recurso.
 
 ## Tema 2: IDE integrada
 
 ### Épico 1: Executar casos de teste padrão diretamente na plataforma
 - **História 1:** [*US05*] - Como estudante, quero executar casos de teste diretamente na plataforma, para validar meu código sem precisar fazer uma submissão completa no sistema.
-- **História 2:** [*US06*] - Como professor, quero ser capaz de habilitar ou desabilitar casos de teste padrão para uma lista de exercícios específica para modificar a dificuldade de resolução dos exercícios.
+- **História 2:** [*US06*] - Como professor, quero ser capaz de atualizar casos de teste padrão para uma lista de exercícios específica para modificar a dificuldade de resolução dos exercícios.
 
 ### Épico 2: Executar casos de teste customizados pela plataforma
 - **História 1:** [*US07*] - Como estudante, quero customizar casos de teste do problema com o código feito na plataforma para entender melhor os problemas da plataforma.
-- **História 2:** [*US08*] - Como estudante, quero ser poder compartilhar meus casos de testes com outros usuários da plataforma para que possamos colaborar mutualmente.
-- **História 3:** [*US09*] - Como professor, quero ser capaz de habilitar ou desabilitar casos de teste customizados para uma lista de exercícios específica para modificar a dificuldade de resolução dos exercícios.
+- **História 2:** [*US08*] - Como estudante, quero poder compartilhar meus casos de testes com outros usuários da plataforma para que possamos colaborar mutualmente.
+- **História 3:** [*US09*] - Como professor, quero ser capaz de controlar casos de teste customizados para uma lista de exercícios específica para modificar a dificuldade de resolução dos exercícios.
 
 ### Épico 3: Criar/editar código na IDE
-- **História 1:** [*US10*] - Como estudante, quero criar e editar o código referente a submissão diretamente na plataforma para evitar que eu precise abrir uma IDE auxiliar (VSCode, Vim).]
+- **História 1:** [*US10*] - Como estudante, quero criar e editar o código referente a submissão diretamente na plataforma para evitar que eu precise abrir uma IDE auxiliar (VSCode, Vim).
 - **História 2:** [*US11*] - Como estudante, quero submeter o código diretamente da IDE na plataforma, para verificar se minha solução está correta.
 
 ### Épico 4: A IDE deve dar suporte para : Java, C++, Python, Rust, MIPS, RISC-V
