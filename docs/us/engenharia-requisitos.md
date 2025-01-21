@@ -44,7 +44,7 @@
 - **MoSCoW:** O MoSCoW será utilizado para identificar as prioridades e
   pontos críticos do projeto.
 
-## Engenharia de requisitos e o RAD/Open UP
+## Engenharia de requisitos e o Open UP
 
 | Fase do processo | Atividades ER                           | Prática                                                                           | Técnica                                | Resultado Esperado                                                 |
 | ---------------- | --------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------ |

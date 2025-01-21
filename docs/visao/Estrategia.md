@@ -6,7 +6,7 @@
 
 **Ciclo de vida:** Iterativo e incremental
 
-**Processo de Engenharia de Software:** Híbrido
+**Processo de Engenharia de Software:** OpenUP
 
 ## Quadro comparativo
 
@@ -20,11 +20,11 @@
 
 ## Justificativa
 
-Escolhemos o processo híbrido do RAD e OpenUP, pois a mistura deles garante maior previsibilidade e estrutura durante o estágio inicial (OpenUP), feedback contínuo, abordagem melhor para equipes menores (RAD), o que consideramos fundamental, pois estamos lidando com uma plataforma de nicho que demandará tempo de aprendizado para equipe conseguir lidar adequadamente com o projeto.
+Escolhemos o processo OpenUP, pois a utilização desse processo garante maior previsibilidade e estrutura durante o estágio inicial, além disso, ele também nos permite obter feedback contínuo que consideramos fundamental, pois estamos lidando com uma plataforma de nicho que demandará tempo de aprendizado para equipe conseguir lidar adequadamente com o projeto.
 
-## Utilização do processo híbrido entre RAD e OpenUP na prática
+## Utilização do processo OpenUP
 
-Nossa divisão de iterações será de acordo com o OpenUP, porém teremos o RAD híbrido para contribuir na rapidez do processo de desenvolvimento do ponto de vista de feedback do usuário. Utilizaremos prototipação de baixa fidelidade com o cliente e focaremos bastante nas respostas e avaliações do professor Bruno Ribas para prosseguir com o desenvolvimento numa microescala. Também ocorrerá reuniões informais com o cliente para fazer alinhamentos sobre cada incremento que será entregue. Optamos por incorporar o OpenUP (na estrutura de Inception, Elaboration, Construction e Transition) na nossa estratégia de desenvolvimento de software da seguinte forma:
+Nossa divisão de iterações será de acordo com o OpenUP e a partir dele focaremos bastante nas respostas e avaliações do professor Bruno Ribas para prosseguir com o desenvolvimento numa microescala. Também ocorrerá reuniões informais com o cliente para fazer alinhamentos sobre cada incremento que será entregue. Optamos por incorporar o OpenUP (na estrutura de Inception, Elaboration, Construction e Transition) na nossa estratégia de desenvolvimento de software da seguinte forma:
 
 **Inception** e **Elaboração**: definição inicial do projeto. Assim como a elicitação e descoberta de requisitos com o cliente, também aplicamos a técnica de brainstorming sobre os problemas e soluções propostas entre o time, além de estabelecermos o documento de visão do produto e posteriormente a análise, consenso e declaração dos requisitos, assim como épicos, temas e histórias de usuário.
 
