@@ -22,7 +22,9 @@ Abaixo, detalhamos os critérios definidos para cada uma dessas práticas no pro
 
 | Critérios: |
 | ----------- |
-| Todos os critérios foram aceitos. | 
+| Houve aceite de todos os critérios de aceitação. | 
 | A funcionalidade foi aceita pelo cliente no ambiente de testes. |
 | O código foi devidamente revisado. |
 | Entrega de um incremento de produto, agregando valor de negócio. |
+| Houve cobertura de testes acima de 90%. |
+| A integração entre back e front-end foi concluída. |
