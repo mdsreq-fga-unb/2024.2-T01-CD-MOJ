@@ -20,13 +20,13 @@
 
 ![](../assets/pbi1.png)
 ---
-### (cont)
+### (continuação)
 ![](../assets/pbi2.png)
-### (cont)
+### (continuação)
 ![](../assets/pbi3.png)
 
 
-## Historias de Usuário e BDD
+## Historias de Usuário e BDD (Behavior-Driven Development)
 
 ![](../assets/us1.png)
 ### US01

@@ -21,7 +21,7 @@
 
 ![](../assets/USM3.png)
 
-## USM - Pais, Especialista Externo e Coordenador Pedagócio
+## USM - Pais, Especialista Externo e Coordenador Pedagógico
 
 ![](../assets/USM4.png)
 
