@@ -1,5 +1,25 @@
 # PBB - Product Backlog Building
 
+## Contexto
+
+A TechFix é uma empresa especializada em suporte técnico e manutenção de equipamentos, atendendo tanto clientes corporativos quanto residenciais. Apesar de consolidada no mercado, a empresa enfrenta desafios operacionais significativos, como atrasos no atendimento, falhas de comunicação, retrabalho e baixa satisfação dos clientes. Esses problemas têm impacto direto na eficiência da equipe, na experiência do cliente e na reputação da empresa.
+
+Com o objetivo de superar essas dificuldades, a TechFix busca soluções tecnológicas para otimizar seus processos, como agendamentos mais eficientes, registro padronizado de serviços, coleta automatizada de feedback e geração de relatórios detalhados para os gestores. A proposta é implementar um sistema integrado que atenda às necessidades das personas-chave: técnicos de campo, atendentes, clientes corporativos e a diretoria de operações.
+
+## Personas
+
+### Carlos – O Técnico de Campo
+Carlos é responsável por realizar manutenções e reparos em uma variedade de equipamentos, desde servidores corporativos até sistemas de automação residencial. Ele enfrenta desafios como a falta de acesso ao histórico dos equipamentos, comunicação ineficiente com a central e a necessidade de registrar informações manualmente, o que gera atrasos e retrabalho. Para desempenhar melhor seu trabalho, Carlos precisa de ferramentas móveis e integradas que permitam diagnósticos rápidos e registro de serviços em tempo real, além de acesso a guias técnicas e históricos detalhados.
+
+### Mariana – A Atendente
+Mariana é a responsável por atender os clientes e organizar os agendamentos. Seu trabalho é dificultado pela falta de informações centralizadas, o que resulta em erros de agendamento, retrabalho e insatisfação dos clientes. Mariana precisa de um sistema automatizado para gerenciar agendamentos, enviar notificações e integrar as informações dos clientes, proporcionando maior eficiência e reduzindo conflitos operacionais.
+
+### Rafael – O Cliente Corporativo
+Rafael é gerente de TI em uma empresa que depende dos serviços da TechFix para garantir a continuidade operacional. Ele enfrenta atrasos na resolução de problemas críticos, falta de transparência no acompanhamento de solicitações e dificuldade para obter informações confiáveis. Rafael precisa de um portal que permita acompanhar as solicitações em tempo real, receber notificações automáticas e acessar relatórios detalhados sobre os serviços realizados, atendendo às exigências do SLA e garantindo maior confiabilidade.
+
+### Ana – A Diretora de Operações
+Ana supervisiona as operações da TechFix e busca constantemente melhorar a produtividade, a eficiência e a experiência do cliente. No entanto, ela enfrenta desafios como sistemas desatualizados, relatórios inconsistentes e falta de visibilidade sobre o desempenho da equipe e dos processos. Ana precisa de dashboards centralizados, relatórios automáticos e ferramentas de monitoramento em tempo real, que permitam análises estratégicas para identificar gargalos e implementar melhorias de forma proativa.
+
 ## MIRO
 
 ## Quadro do Miro

@@ -1,5 +1,30 @@
 # USM - User Story Mapping
 
+## Contexto 
+A EduConnect é uma empresa criada para abordar desafios enfrentados por instituições educacionais na gestão de projetos interdisciplinares e atividades extracurriculares. Inspirada pela necessidade de integrar disciplinas e proporcionar experiências educacionais práticas, a empresa busca desenvolver uma plataforma digital que simplifique a criação, organização e avaliação desses projetos.
+
+Com foco em acessibilidade, engajamento e colaboração, a EduConnect enfrenta problemas comuns como a fragmentação de ferramentas, limitações de recursos, dificuldades de comunicação entre stakeholders e a baixa interatividade de sistemas tradicionais. O objetivo principal da empresa é transformar a gestão educacional, promovendo maior eficiência e aprendizado significativo.
+
+## Personas
+
+### Professor Coordenador
+Supervisiona projetos interdisciplinares, organizando equipes e assegurando o alinhamento pedagógico. Deseja ferramentas para facilitar a comunicação, o acompanhamento das atividades e a gestão das entregas dos grupos.
+
+### Professor Participante
+Colabora em projetos interdisciplinares, contribuindo com sua expertise para atividades específicas. Deseja clareza nas tarefas atribuídas, integração com outros participantes e facilidade no registro de contribuições.
+
+### Aluno
+Participa de projetos interdisciplinares, desenvolvendo atividades colaborativas e práticas. Deseja uma plataforma intuitiva para acessar informações, realizar entregas e interagir com colegas e professores.
+
+### Pais/Responsáveis
+Acompanham o progresso educacional dos alunos, fornecendo suporte e incentivando sua participação. Desejam uma visão clara do desempenho e ferramentas para comunicação direta com os educadores.
+
+### Especialista Externo
+Contribui com conhecimentos específicos para enriquecer os projetos interdisciplinares. Deseja acesso fácil às informações relevantes e uma forma prática de interagir com os participantes.
+
+### Coordenador Pedagógico
+Supervisiona projetos interdisciplinares, garantindo que estejam alinhados aos objetivos pedagógicos da instituição. Ele deseja ferramentas para acompanhar múltiplos projetos, avaliar impactos educacionais e garantir o alinhamento com as diretrizes curriculares.
+
 ## MIRO
 
 ## Quadro do Miro
