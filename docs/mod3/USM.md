@@ -46,7 +46,7 @@ Supervisiona projetos interdisciplinares, garantindo que estejam alinhados aos o
 
 ![](../assets/USM3.png)
 
-## USM - Pais, Especialista Externo e Coordenador Pedagócio
+## USM - Pais, Especialista Externo e Coordenador Pedagógico
 
 ![](../assets/USM4.png)
 
