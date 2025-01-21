@@ -107,88 +107,145 @@
 
 ### US1
 *US1: Eu, como professor coordenador, quero estabelecer o objetivo pedagógico do projeto no sistema para garantir que o projeto tenha uma direção clara e alinhada com os objetivos educacionais.*
+
 - 1) O sistema deve permitir editar ou atualizar o objetivo pedagógico após a criação.
+
 - 2)  A definição do objetivo pedagógico deve ser salva automaticamente.
+
 - 3) O objetivo pedagógico inserido deve ser visível para todos os professores envolvidos no projeto.
+
 ### US2
 *US2: Eu, como Professor Coordenador, quero criar um cronograma de atividades para organizar o tempo e as atividades do projeto.*
+
 - 1) O sistema deve permitir a criação de um cronograma com datas de atividades, eventos e entregas.
+
 - 2) O cronograma deve permitir ajustes facilmente sem perder informações anteriores.
+
 - 3) O cronograma deve ser visualizável por todos os professores, alunos e pais envolvidos.
+
 - 4) O sistema deve enviar notificações automáticas para mudanças no cronograma.
+
 ### US3
 *US3: Eu, como Professor Coordenador, quero estabelecer disciplinas participantes para integrar as diferentes áreas do conhecimento.*
+
 - 1) O sistema deve permitir a seleção e adição de disciplinas associadas ao projeto.
+
 - 2) O professor coordenador deve poder remover ou alterar as disciplinas durante o processo de planejamento.
+
 - 3) A plataforma deve exibir as disciplinas e os professores associados a elas no cronograma.
+
 - 4) Os professores de disciplinas associadas devem ser notificados sobre sua inclusão no projeto.
 ### US5
 *US5: Eu, como Professor Coordenador, quero enviar convites para os professores através do sistema, para formalizar a participação e integrar os membros da equipe.*
+
 - 1) O sistema deve permitir que o professor coordenador envie convites para os professores por e-mail ou notificação dentro da plataforma.
+
 - 2) O sistema deve notificar o coordenador quando o convite for aceito ou rejeitado.
+
 - 3) O professor deve poder reenviar convites caso não tenha sido aceito.
 ### US12
 *US12: Eu, como Professor Coordenador, quero agendar reuniões de acompanhamento com pais e especialistas pelo sistema, para facilitar a comunicação e o engajamento dos pais e especialistas no progresso do aluno.*
+
 - 1) O sistema deve permitir que o professor agende reuniões diretamente na plataforma.
+
 - 2) O sistema deve enviar convites e lembretes automáticos sobre a reunião para todos os envolvidos.
+
 - 3) O sistema deve permitir a modificação ou cancelamento do agendamento.
 
 ![](../assets/Crit2_USM.png)
 
 ### US13
 *US13: Eu, como Professor Participante, quero criar atividades e planos de aula para garantir que as aulas estejam alinhadas com os objetivos do projeto interdisciplinar.*
+
 - 1) O sistema deve permitir a criação de atividades detalhadas com datas de entrega e objetivos.
+
 - 2) O professor deve poder editar o plano de aula até o momento de sua execução.
+
 ### US16
 *US16: Eu, como Professor Participante, quero compartilhar dados de progresso das atividades com outros professores na plataforma para garantir que todos se atualizem sobre o progresso e adaptem as atividades conforme necessário.*
+
 - 1) O sistema deve permitir que o professor compartilhe os dados de progresso das atividades, incluindo status, pontuação ou feedback dos alunos.
+
 - 2) O professor deve poder selecionar quais dados específicos deseja compartilhar com os outros professores.
+
 - 3) O progresso das atividades deve ser apresentado de forma visual (gráficos, tabelas ou listas) para facilitar a compreensão.
+
 - 4) O professor deve poder adicionar comentários ou notas explicativas aos dados compartilhados para contextos adicionais.
 
 ### US19
 *US19: Eu, como Professor Participante, quero criar tarefas colaborativas para promover a colaboração entre os professores e enriquecer a experiência de ensino.*
+
 - 1) O sistema deve permitir que o professor compartilhe os dados de progresso das atividades, incluindo status, pontuação ou feedback dos alunos.
+
 - 2) O professor deve poder selecionar quais dados específicos deseja compartilhar com os outros professores.
+
 - 3) O progresso das atividades deve ser apresentado de forma visual (gráficos, tabelas ou listas) para facilitar a compreensão.
+
 - 4) O professor deve poder adicionar comentários ou notas explicativas aos dados compartilhados para contextos adicionais.
+
 ### US21
 *US21: Eu, como Professor Participante, quero visualizar as contribuições de outros professores  para garantir que todos estão alinhados e colaborando nas atividades do projeto.*
+
 - 1) O sistema deve permitir que o professor crie tarefas colaborativas, incluindo a descrição da tarefa, prazos e objetivos.
+
 - 2) O professor deve poder visualizar o progresso de cada membro da equipe dentro da tarefa.
+
 - 3) O sistema deve permitir que os professores compartilhem documentos e recursos dentro da tarefa colaborativa.
+
 ### US23
 *US23: Eu, como Aluno, quero confirmar minha inscrição no projeto para garantir minha participação e receber todas as informações relacionadas ao projeto.*
+
 - 1) O sistema deve exibir a lista de projetos disponíveis para inscrição.
-- 2) O aluno deve ser capaz de se inscrever em um projeto com um clique e obter confirmação imediata
+
+- 2) O aluno deve ser capaz de se inscrever em um projeto com um clique e obter confirmação imediata.
+
 - 3) O sistema deve enviar uma confirmação de inscrição via e-mail ou notificação no aplicativo.
 
 ![](../assets/Crit3_USM.png)
 
 ### US24
 *US24: Eu, como Aluno, quero acessar os materiais iniciais do projeto  para me familiarizar com o conteúdo e as expectativas do projeto desde o início.*
+
 - 1) O sistema deve exibir a lista de projetos disponíveis para inscrição.
+
 - 2) O aluno deve ser capaz de se inscrever em um projeto com um clique e obter confirmação imediata.
+
 - 3) O sistema deve enviar uma confirmação de inscrição via e-mail ou notificação no aplicativo.
+
 ### US25
 *US25: Eu, como Aluno, quero submeter minhas atividades práticas e colaborativas para que elas sejam avaliadas e acompanhadas pelos professores.*
+
 - 1) As atividades devem ser registradas com informações sobre a data de entrega e status.
+
 - 2) O sistema deve permitir anexar arquivos ou links, conforme necessário, para cada atividade.
+
 - 3) O aluno deve receber uma confirmação de que a atividade foi submetida corretamente.
+
 ### US30
 *US30: Eu, como Pais/Responsável, quero visualizar relatórios de progresso do meu filho para acompanhar sua evolução e entender as áreas em que ele pode melhorar.*
+
 - 1) O sistema deve gerar relatórios periódicos sobre o desempenho do aluno no projeto.
+
 - 2) O relatório deve incluir informações sobre atividades, resultados e feedback.
+
 ### US31
 *US31: Eu, como Pais/Responsável, quero confirmar minha presença em eventos/apresentações finais via  para garantir minha participação nas atividades importantes do projeto.*
+
 - 1) A confirmação deve ser visível para os organizadores do evento.
+
 - 2) O sistema deve enviar um lembrete automático sobre o evento para os pais confirmados.
+
 - 3) Os pais devem poder cancelar ou modificar a confirmação até a data do evento.
+
 ### US35
 *US35: Eu, como Especialista Externo, quero enviar feedback aos alunos sobre o progresso no projeto através da plataforma para orientá-los no aprimoramento de suas habilidades e participação.*
+
 - 1) O sistema deve permitir ao especialista inserir feedback diretamente nas atividades dos alunos.
+
 - 2) O feedback inserido deve ser visível para os alunos e professores.
+
 - 3) O sistema deve garantir que o feedback seja registrado de forma clara e fácil de acessar.
+
 - 4) O relatório deve ser exportável para PDF.
 
 

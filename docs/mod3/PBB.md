@@ -31,9 +31,13 @@
 ![](../assets/us1.png)
 ### US01
 *US01: Eu, como técnico de campo, quero registrar informações do serviço técnico no sistema móvel para registros em tempo real e redução de erros.*
-- 1) O técnico deve ser capaz de acessar o sistema móvel utilizando credenciais exclusivas
+
+- 1) O técnico deve ser capaz de acessar o sistema móvel utilizando credenciais exclusivas.
+
 - 2) O sistema deve permitir o preenchimento de campos obrigatórios para registrar informações do serviço.
+
 - 3) Após o registro, os dados devem ser sincronizados automaticamente com o sistema central em até 5 minutos.
+
 ### US02
 *US2: Eu, como técnico de campo, quero sincronizar os dados coletados com o sistema central para acesso rápido a guias técnicas e históricos.*
 
@@ -48,21 +52,28 @@
 ### US03
 
 *US3: Eu, como técnico de campo, quero consultar os históricos técnicos no local do cliente para melhor produtividade e diagnósticos mais rápidos.*
+
 - 1) O sistema deve disponibilizar uma interface para pesquisa por cliente ou número de solicitação.
+
 - 2) Os históricos devem incluir informações como serviços realizados, peças trocadas e notas técnicas.
+
 - 3) O acesso deve ser possível mesmo em locais com conexão limitada, utilizando sincronização offline.
 
 ![](../assets/us2.png)
 
 ### US04
 *US4: Eu, como atendente, quero organizar os agendamentos com base na disponibilidade e localização dos técnicos para processos mais organizados e eficientes.*
-- 1) O sistema deve exibir um calendário integrado com a agenda de todos os técnicos.
-- 2) Os horários disponíveis devem ser atualizados em tempo real.
-- 3) Conflitos de agendamento devem ser sinalizados automaticamente com sugestões de horários alternativos.
+
+- 1) O sistema deve exibir um calendário integrado com a agenda de todos os técnicos.
+
+- 2) Os horários disponíveis devem ser atualizados em tempo real.
+
+- 3) Conflitos de agendamento devem ser sinalizados automaticamente com sugestões de horários alternativos.
 
 
 ### US05
 *US5: Eu, como atendente, quero enviar notificações automáticas aos técnicos e clientes para redução de atrasos e retrabalho.*
+
 | **Cenário** | Enviar notificações automáticas sobre agendamentos |
 |-------------|------------------------------------------------------|
 | **Dado**    | que a atendente tenha feito um agendamento ou alterado o status de uma solicitação |
@@ -87,15 +98,21 @@
 
 ### US07
 *US7: Eu, como cliente corporativo, quero acompanhar o status das solicitações em tempo real para acompanhamento fácil e transparente das solicitações.*
+
 - 1) O cliente deve poder acessar um portal seguro com login e senha.
+
 - 2) O status deve ser atualizado automaticamente após cada etapa do processo ("Em análise", "Em andamento", "Finalizado").
+
 - 3) O portal deve exibir notificações em tempo real sobre alterações no status.
 
 
 ### US08
 *US8: Eu, como cliente corporativo, quero visualizar o histórico de solicitações no portal para redução de dúvidas e reclamações.*
+
 - 1) O histórico deve incluir todas as solicitações realizadas nos últimos 12 meses
+
 - 2) Cada entrada deve conter informações como data, descrição do serviço e técnico responsável
+
 - 3) O histórico deve permitir busca e filtragem por tipo de serviço ou data.
 
 
@@ -115,8 +132,11 @@
 
 ### US10
 *US10: Eu, como diretora de operações, quero consolidar as métricas operacionais em dashboards para obter dados consolidados para decisões rápidas e precisas.*
+
 - 1) O dashboard deve exibir métricas como número de serviços concluídos, tempo médio de atendimento e feedback do cliente.
+
 - 2) Os dados devem ser atualizados automaticamente a cada 24 horas.
+
 - 3) O dashboard deve permitir personalização de filtros por período, região ou tipo de serviço.
 
 
@@ -146,8 +166,11 @@
 
 ### US13
 *US13: Eu, como cliente corporativo, quero receber pesquisas de satisfação após o atendimento para feedback em tempo real e de fácil acesso.*
+
 - 1) A pesquisa deve ser enviada automaticamente por e-mail ou SMS após a conclusão do serviço.
+
 - 2) O questionário deve incluir perguntas objetivas e espaço para comentários.
+
 - 3) As respostas devem ser registradas no sistema central e associadas ao cliente.
 
 ### US14
@@ -176,8 +199,11 @@
 
 ### US16
 *US16: Eu, como técnico de campo, quero enviar mensagens instantâneas para a central para comunicação rápida e centralizada.*
+
 - 1) O sistema deve permitir envio de mensagens entre usuários cadastrados com confirmação de entrega.
+
 - 2) As mensagens devem ser organizadas por categoria, como "Atualização de serviço" ou "Solicitação de suporte".
+
 - 3) As conversas devem ser armazenadas para consulta posterior por até 6 meses.
 
 
