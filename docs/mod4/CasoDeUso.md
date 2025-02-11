@@ -1,3 +1,19 @@
+## Casos de Uso
+
+![](../assets/CasoU0.png)
+
+### Caso de Uso - Primeira Parte (Usuário)
+
+![](../assets/CasoU01.png)
+
+### Caso de Uso - Segunda Parte (Paciente e Profissional de saúde)
+
+![](../assets/CasoU02.png)
+
+### Caso de Uso - Terceira Parte (Agente comunitário, Organizações e Administrador)
+
+![](../assets/CasoU03.png)
+
 ## Especificações de Casos de Uso
 
 Resolvemos fazer o uso de dois casos específicos da ConnectCare, que foram representados no nosso diagrama: __Criar Perfil__ e __Agendar Consulta__.
