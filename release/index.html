@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CD-MOJ: Log de Runtime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section id="content">
+                <h2>Log de Runtime</h2>
+                <label for="submissao-id">ID da Submissão:</label>
+                <input type="text" id="submissao-id" name="submissao-id">
+                <button id="buscar-log">Buscar Log</button>
+
+                <div id="log-container">
+                    <h3>Código:</h3>
+                    <pre id="codigo"></pre>
+                    <h3>Log Detalhado:</h3>
+                    <pre id="log"></pre>
+                </div>
+
+                <button id="salvar-log">Salvar Log</button>
+                <button id="baixar-codigo">Baixar Código</button>
+                <button id="baixar-log">Baixar Log</button>
+                <button id="recuperar-codigo">Recuperar Código</button>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CD-MOJ</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
