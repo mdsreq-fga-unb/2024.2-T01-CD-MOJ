@@ -1,0 +1,1912 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../PBB/">
+      
+      
+        <link rel="next" href="../Apresentacao/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
+    
+    
+      
+        <title>USM - User Story Mapping - CD-MOJ Requisitos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.75 1.75 0 0 1 1 7.775m1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25m13.274 9.537zl-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074M4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5M4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75M8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.499.75a.75.75 0 0 1 1.5 0v.996C5.9 2.903 6.793 3.65 7.662 4.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873 10.794-.045 12.622.26 14.408.558 16 1.94 16 4.25c0 1.278-.954 2.575-2.44 2.734l.146.508.065.22c.203.701.412 1.455.476 2.226.142 1.707-.4 3.03-1.487 3.898C11.714 14.671 10.27 15 8.75 15h-6a.75.75 0 0 1 0-1.5h1.376a4.5 4.5 0 0 1-.563-1.191 3.84 3.84 0 0 1-.05-2.063 4.65 4.65 0 0 1-2.025-.293.75.75 0 0 1 .525-1.406c1.357.507 2.376-.006 2.698-.318l.009-.01a.747.747 0 0 1 1.06 0 .75.75 0 0 1-.012 1.074c-.912.92-.992 1.835-.768 2.586.221.74.745 1.337 1.196 1.621H8.75c1.343 0 2.398-.296 3.074-.836.635-.507 1.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.4 2.4 0 0 1-.507-.441 3.1 3.1 0 0 1-.633-1.248.75.75 0 0 1 1.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738 0 1.25-.615 1.25-1.25 0-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706 1.345-.46.92-.27 1.774.019 3.062l.042.19.01.05c.348.443.666.949.94 1.553a.75.75 0 1 1-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768L6.7 5.527c-.814-.68-1.75-1.462-2.692-2.619a3.7 3.7 0 0 0-1.023.88c-.406.495-.663 1.036-.722 1.508.116.122.306.21.591.239.388.038.797-.06 1.032-.19a.75.75 0 0 1 .728 1.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75 5.677V5.5c0-.984.48-1.94 1.077-2.664.46-.559 1.05-1.055 1.673-1.353z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 .018-1.042.75.75 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13M6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.76 2.76 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6 6 0 0 0-.26.16 1 1 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661q.154-.1.313-.195l.007-.004c.1-.061.182-.11.258-.161a1 1 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.61.61 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1 1 0 0 0-.34.398M9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0M9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.344 2.343za8 8 0 0 1 11.314 11.314A8.002 8.002 0 0 1 .234 10.089a8 8 0 0 1 2.11-7.746m1.06 10.253a6.5 6.5 0 1 0 9.108-9.275 6.5 6.5 0 0 0-9.108 9.275M6.03 4.97 8 6.94l1.97-1.97a.749.749 0 0 1 1.275.326.75.75 0 0 1-.215.734L9.06 8l1.97 1.97a.749.749 0 0 1-.326 1.275.75.75 0 0 1-.734-.215L8 9.06l-1.97 1.97a.749.749 0 0 1-1.275-.326.75.75 0 0 1 .215-.734L6.94 8 4.97 6.03a.75.75 0 0 1 .018-1.042.75.75 0 0 1 1.042-.018"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9.504.43a1.516 1.516 0 0 1 2.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.25 1.25 0 0 1-.871.354h-.302a1.25 1.25 0 0 1-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004zm1.047 1.074L3.286 8.571A.25.25 0 0 0 3.462 9H6.75a.75.75 0 0 1 .694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0 0 12.538 7H9.25a.75.75 0 0 1-.683-1.06l2.008-4.418.003-.006-.004-.009-.006-.006-.008-.001q-.005 0-.009.004"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.5 3.5 0 0 1 2.441 0l.999-1a.748.748 0 0 1 1.265.332.75.75 0 0 1-.205.729l-.775.776c.616.63.995 1.493.995 2.444v.327q0 .15-.025.292c.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5q-.002.615-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A5 5 0 0 1 8 16a5 5 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5 5 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.7 1.7 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06m.53 6.28a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75ZM6.173 5h3.654A.17.17 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458Zm-2.4 6.565a.75.75 0 0 0 .633 1.153h9.534a.75.75 0 0 0 .633-1.153L12.225 10.5h-8.45ZM9.5 2.5h-3V6c0 .143-.04.283-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 0 1 9.5 6Z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 2.5h10.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5m4 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5m0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5M2.5 7.75v6a.75.75 0 0 1-1.5 0v-6a.75.75 0 0 1 1.5 0"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#usm-user-story-mapping" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="CD-MOJ Requisitos" class="md-header__button md-logo" aria-label="CD-MOJ Requisitos" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CD-MOJ Requisitos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              USM - User Story Mapping
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartilhar" aria-label="Compartilhar" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mdsreq-fga-unb/2024.2-T01-CD-MOJ/" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mdsreq-fga-unb/2024.2-T01-CD-MOJ/
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  Sobre
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../visao/Cenario/" class="md-tabs__link">
+          
+  
+  Visão de produto e projeto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../us/engenharia-requisitos/" class="md-tabs__link">
+          
+  
+  Unidade 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../PBB/" class="md-tabs__link">
+          
+  
+  Unidade 3
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../mod4/CasoDeUso/" class="md-tabs__link">
+          
+  
+  Unidade 4
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CD-MOJ Requisitos" class="md-nav__button md-logo" aria-label="CD-MOJ Requisitos" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    CD-MOJ Requisitos
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mdsreq-fga-unb/2024.2-T01-CD-MOJ/" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mdsreq-fga-unb/2024.2-T01-CD-MOJ/
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Sobre
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Equipe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Visão de produto e projeto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Visão de produto e projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao/Cenario/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cenário atual do Cliente e do Negócio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao/Solucao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Solução Proposta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao/Estrategia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estratégia de Engenharia de Software
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao/Cronograma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma de Entregas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao/Equipe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Interação entre equipe e cliente
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao/Licoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lições aprendidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visao/Apresentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação (Entrega 1)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Unidade 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Unidade 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../us/engenharia-requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Engenharia de requisitos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../us/Backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../us/priorizacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Priorização
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../us/DoR_DoD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DoR e DoD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../us/Apresentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação (Entrega 2)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../us/Licoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lições aprendidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Unidade 3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Unidade 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PBB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PBB - Product Backlog Building
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    USM - User Story Mapping
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    USM - User Story Mapping
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Personas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#professor-coordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Coordenador
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#professor-participante" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Participante
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aluno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paisresponsaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pais/Responsáveis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#especialista-externo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especialista Externo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordenador-pedagogico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coordenador Pedagógico
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#miro" class="md-nav__link">
+    <span class="md-ellipsis">
+      MIRO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quadro-do-miro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quadro do Miro
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usm-professor-coordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      USM - Professor Coordenador
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usm-professor-participante" class="md-nav__link">
+    <span class="md-ellipsis">
+      USM - Professor Participante
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usm-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      USM - Aluno
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usm-pais-especialista-externo-e-coordenador-pedagogico" class="md-nav__link">
+    <span class="md-ellipsis">
+      USM - Pais, Especialista Externo e Coordenador Pedagógico
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Apresentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação (Entrega 3)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licoes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lições aprendidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Unidade 4
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Unidade 4
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mod4/CasoDeUso/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CasoDeUso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mod4/Apresentacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação (Entrega 4)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#personas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Personas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#professor-coordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Coordenador
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#professor-participante" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professor Participante
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aluno
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paisresponsaveis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pais/Responsáveis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#especialista-externo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especialista Externo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coordenador-pedagogico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coordenador Pedagógico
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#miro" class="md-nav__link">
+    <span class="md-ellipsis">
+      MIRO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quadro-do-miro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quadro do Miro
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usm-professor-coordenador" class="md-nav__link">
+    <span class="md-ellipsis">
+      USM - Professor Coordenador
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usm-professor-participante" class="md-nav__link">
+    <span class="md-ellipsis">
+      USM - Professor Participante
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usm-aluno" class="md-nav__link">
+    <span class="md-ellipsis">
+      USM - Aluno
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usm-pais-especialista-externo-e-coordenador-pedagogico" class="md-nav__link">
+    <span class="md-ellipsis">
+      USM - Pais, Especialista Externo e Coordenador Pedagógico
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<div><h1 id="usm-user-story-mapping">USM - User Story Mapping</h1>
+<h2 id="contexto">Contexto</h2>
+<p>A EduConnect é uma empresa criada para abordar desafios enfrentados por instituições educacionais na gestão de projetos interdisciplinares e atividades extracurriculares. Inspirada pela necessidade de integrar disciplinas e proporcionar experiências educacionais práticas, a empresa busca desenvolver uma plataforma digital que simplifique a criação, organização e avaliação desses projetos.</p>
+<p>Com foco em acessibilidade, engajamento e colaboração, a EduConnect enfrenta problemas comuns como a fragmentação de ferramentas, limitações de recursos, dificuldades de comunicação entre stakeholders e a baixa interatividade de sistemas tradicionais. O objetivo principal da empresa é transformar a gestão educacional, promovendo maior eficiência e aprendizado significativo.</p>
+<h2 id="personas">Personas</h2>
+<h3 id="professor-coordenador">Professor Coordenador</h3>
+<p>Supervisiona projetos interdisciplinares, organizando equipes e assegurando o alinhamento pedagógico. Deseja ferramentas para facilitar a comunicação, o acompanhamento das atividades e a gestão das entregas dos grupos.</p>
+<h3 id="professor-participante">Professor Participante</h3>
+<p>Colabora em projetos interdisciplinares, contribuindo com sua expertise para atividades específicas. Deseja clareza nas tarefas atribuídas, integração com outros participantes e facilidade no registro de contribuições.</p>
+<h3 id="aluno">Aluno</h3>
+<p>Participa de projetos interdisciplinares, desenvolvendo atividades colaborativas e práticas. Deseja uma plataforma intuitiva para acessar informações, realizar entregas e interagir com colegas e professores.</p>
+<h3 id="paisresponsaveis">Pais/Responsáveis</h3>
+<p>Acompanham o progresso educacional dos alunos, fornecendo suporte e incentivando sua participação. Desejam uma visão clara do desempenho e ferramentas para comunicação direta com os educadores.</p>
+<h3 id="especialista-externo">Especialista Externo</h3>
+<p>Contribui com conhecimentos específicos para enriquecer os projetos interdisciplinares. Deseja acesso fácil às informações relevantes e uma forma prática de interagir com os participantes.</p>
+<h3 id="coordenador-pedagogico">Coordenador Pedagógico</h3>
+<p>Supervisiona projetos interdisciplinares, garantindo que estejam alinhados aos objetivos pedagógicos da instituição. Ele deseja ferramentas para acompanhar múltiplos projetos, avaliar impactos educacionais e garantir o alinhamento com as diretrizes curriculares.</p>
+<h2 id="miro">MIRO</h2>
+<h2 id="quadro-do-miro">Quadro do Miro</h2>
+<iframe src="https://miro.com/app/board/uXjVLhe14Zw=/" width="100%" height="600" frameborder="0"></iframe>
+
+<p><em>Link do Miro:</em> <a href="URL" title="https://miro.com/app/board/uXjVLhe14Zw=/">MIRO</a></p>
+<h2 id="usm-professor-coordenador">USM - Professor Coordenador</h2>
+<p><img alt="" src="../../assets/USM1.png"></p>
+<h2 id="usm-professor-participante">USM - Professor Participante</h2>
+<p><img alt="" src="../../assets/USM2.png"></p>
+<h2 id="usm-aluno">USM - Aluno</h2>
+<p><img alt="" src="../../assets/USM3.png"></p>
+<h2 id="usm-pais-especialista-externo-e-coordenador-pedagogico">USM - Pais, Especialista Externo e Coordenador Pedagógico</h2>
+<p><img alt="" src="../../assets/USM4.png"></p>
+<h1 id="historias-de-usuarios">Histórias de Usuários</h1>
+<h2 id="historias-do-usuario-professor-coordenador">Histórias do Usuário - Professor Coordenador</h2>
+<p><img alt="" src="../../assets/US1_USM.png"></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US1</td>
+<td>Eu, como professor coordenador, quero estabelecer o objetivo pedagógico do projeto  para garantir que o projeto tenha uma direção clara com os objetivos educacionais.</td>
+</tr>
+<tr>
+<td>US2</td>
+<td>Eu, como Professor Coordenador, quero criar um cronograma de atividades para organizar o tempo e as atividades do projeto.</td>
+</tr>
+<tr>
+<td>US3</td>
+<td>Eu, como Professor Coordenador, quero estabelecer disciplinas participantes para integrar as diferentes áreas do conhecimento.</td>
+</tr>
+<tr>
+<td>US4</td>
+<td>Eu, como Professor Coordenador, quero definir os papéis de cada professor para garantir que todos tenham clareza sobre suas funções.</td>
+</tr>
+<tr>
+<td>US5</td>
+<td>Eu, como Professor Coordenador, quero enviar convites para os professores para formalizar a participação e integrar os membros da equipe</td>
+</tr>
+<tr>
+<td>US6</td>
+<td>Eu, como Professor Coordenador, quero gerar relatórios sobre o progresso dos alunos para monitorar o andamento do projeto.</td>
+</tr>
+<tr>
+<td>US7</td>
+<td>Eu, como Professor Coordenador, quero verificar o progresso das atividades para garantir que o projeto esteja progredindo conforme o planejado.</td>
+</tr>
+<tr>
+<td>US8</td>
+<td>Eu, como Professor Coordenador, quero receber feedback dos alunos e professores   para ajustar a execução do projeto conforme as necessidades.</td>
+</tr>
+<tr>
+<td>US9</td>
+<td>Eu, como Professor Coordenador, quero enviar atualizações periódicas para manter todos envolvidos informados sobre o andamento do projeto.</td>
+</tr>
+<tr>
+<td>US10</td>
+<td>Eu, como Professor Coordenador, quero enviar comunicados para pais e especialistas para mantê-los atualizados e engajados no processo.</td>
+</tr>
+<tr>
+<td>US12</td>
+<td>Eu, como Professor Coordenador, quero agendar reuniões de acompanhamento com pais e especialistas para facilitar a comunicação e o engajamento destes no progresso do aluno.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="historias-do-usuario-professor-participante">Histórias do Usuário - Professor Participante</h2>
+<p><img alt="" src="../../assets/US2_USM.png"></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US13</td>
+<td>Eu, como Professor Participante, quero criar planos de aula para garantir que as aulas estejam alinhadas com os objetivos do projeto interdisciplinar.</td>
+</tr>
+<tr>
+<td>US14</td>
+<td>Eu, como Professor Participante, quero compartilhar meu plano de aula com outros professores para garantir que todos estejam alinhados nas atividades do projeto.</td>
+</tr>
+<tr>
+<td>US15</td>
+<td>Eu, como Professor Participante, quero registrar as os resultados das atividades realizadas  para manter um registro detalhado das ações e avanços do projeto.</td>
+</tr>
+<tr>
+<td>US16</td>
+<td>Eu, como Professor Participante, quero compartilhar dados de progresso das atividades com outros professores para garantir que todos se atualizem sobre o progresso e adaptem as atividades conforme necessário.</td>
+</tr>
+<tr>
+<td>US17</td>
+<td>Eu, como Professor Participante, quero monitorar a evolução dos alunos para ajustar minhas atividades e intervenções conforme a necessidade do aluno.</td>
+</tr>
+<tr>
+<td>US18</td>
+<td>Eu, como Professor Participante, quero inserir feedback sobre o desempenho dos alunos  para orientá-los no seu desenvolvimento e melhorar sua performance.</td>
+</tr>
+<tr>
+<td>US19</td>
+<td>Eu, como Professor Participante, quero criar tarefas colaborativas para promover a colaboração entre os professores e enriquecer a experiência de ensino.</td>
+</tr>
+<tr>
+<td>US20</td>
+<td>Eu, como Professor Participante, quero atribuir tarefas para professores e alunos para garantir que as responsabilidades sejam claras e as tarefas sejam realizadas conforme o planejamento.</td>
+</tr>
+<tr>
+<td>US21</td>
+<td>Eu, como Professor Participante, quero visualizar as contribuições de outros professores  para garantir que todos estão alinhados e colaborando nas atividades do projeto.</td>
+</tr>
+<tr>
+<td>US22</td>
+<td>Eu, como Professor Participante, quero compartilhar feedback sobre as atividades com professores e coordenadores  para melhorar as atividades e promover a reflexão contínua sobre o projeto.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="historias-do-usuario-aluno-e-pais">Histórias do Usuário - Aluno e Pais</h2>
+<p><img alt="" src="../../assets/US3_USM.png"></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US23</td>
+<td>Eu, como Aluno, quero confirmar minha inscrição no projeto para garantir minha participação e receber todas as informações relacionadas ao projeto.</td>
+</tr>
+<tr>
+<td>US24</td>
+<td>Eu, como Aluno, quero acessar os materiais iniciais do projeto  para me familiarizar com o conteúdo e as expectativas do projeto desde o início.</td>
+</tr>
+<tr>
+<td>US25</td>
+<td>Eu, como Aluno, quero submeter minhas atividades práticas para que elas sejam avaliadas e acompanhadas pelos professores.</td>
+</tr>
+<tr>
+<td>US26</td>
+<td>Eu, como Aluno, quero registrar meu progresso nas atividades para que os professores e colegas possam acompanhar meu desenvolvimento.</td>
+</tr>
+<tr>
+<td>US27</td>
+<td>Eu, como Aluno, quero visualizar o feedback dos professores  para entender o que preciso melhorar nas minhas atividades e como posso evoluir no projeto.</td>
+</tr>
+<tr>
+<td>US28</td>
+<td>Eu, como Aluno, quero atualizar minhas entregas com base no feedback recebido para aprimorar meu trabalho e atender às expectativas dos professores.</td>
+</tr>
+<tr>
+<td>US29</td>
+<td>Eu, como Aluno, quero baixar documentos e materiais compartilhados para ter acesso aos recursos necessários para o desenvolvimento do projeto.</td>
+</tr>
+<tr>
+<td>US30</td>
+<td>Eu, como Aluno, quero me inscrever em atividades extracurriculares para ampliar minha participação no projeto e me envolver mais com a comunidade escolar.</td>
+</tr>
+<tr>
+<td>US31</td>
+<td>Eu, como Aluno, quero acompanhar o cronograma de atividades extracurriculares para organizar meu tempo e não perder nenhuma atividade importante.</td>
+</tr>
+<tr>
+<td>US32</td>
+<td>Eu, como Pais/Responsável, quero receber comunicados de progresso para ficar informado sobre o desenvolvimento do meu filho no projeto.</td>
+</tr>
+<tr>
+<td>US33</td>
+<td>Eu, como Pais/Responsável, quero visualizar relatórios de progresso do meu filho para acompanhar sua evolução e entender as áreas em que ele pode melhorar.</td>
+</tr>
+<tr>
+<td>US34</td>
+<td>Eu, como Pais/Responsável, quero confirmar minha presença em eventos/apresentações finais para garantir minha participação nas atividades importantes do projeto.</td>
+</tr>
+<tr>
+<td>US35</td>
+<td>Eu, como Pais/Responsável, quero fornecer feedback sobre eventos através para contribuir com minha opinião sobre a experiência  do projeto.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="historias-do-usuario-especialista-externo-e-coordenador-pedagogico">Histórias do Usuário - Especialista Externo e Coordenador Pedagógico</h2>
+<p><img alt="" src="../../assets/US4_USM.png"></p>
+<table>
+<thead>
+<tr>
+<th><strong>ID</strong></th>
+<th><strong>Descrição</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US36</td>
+<td>Eu, como Especialista Externo, quero criar workshops  para contribuir com meu conhecimento técnico e ajudar os alunos a entender melhor o conteúdo do projeto.</td>
+</tr>
+<tr>
+<td>US37</td>
+<td>Eu, como Especialista Externo, quero criar sessões de orientação para contribuir com meu conhecimento técnico e ajudar os alunos a entender melhor o conteúdo do projeto.</td>
+</tr>
+<tr>
+<td>US38</td>
+<td>Eu, como Especialista Externo, quero enviar feedback aos alunos sobre o progresso no projeto através da plataforma para orientá-los no aprimoramento de suas habilidades e participação.</td>
+</tr>
+<tr>
+<td>US39</td>
+<td>Eu, como Especialista Externo, quero avaliar o impacto da colaboração com relatórios automatizados para entender minha contribuição e melhorar futuras colaborações.</td>
+</tr>
+<tr>
+<td>US40</td>
+<td>Eu, como Especialista Externo, quero sugerir melhorias para os projetos através de comentários para contribuir com insights e ajudar a aprimorar o projeto em andamento.</td>
+</tr>
+<tr>
+<td>US41</td>
+<td>Eu, como Coordenador Pedagógico, quero acompanhar relatórios do progresso dos alunos nas atividades para supervisionar seus desempenhos.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="criterios-de-aceitacao">Criterios de Aceitação</h1>
+<h2 id="criterios-de-aceitacao_1">Criterios de Aceitação</h2>
+<p><img alt="" src="../../assets/Crit1_USM.png"></p>
+<h3 id="us1">US1</h3>
+<p><em>US1: Eu, como professor coordenador, quero estabelecer o objetivo pedagógico do projeto  para garantir que o projeto tenha uma direção clara com os objetivos educacionais.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve fornecer um botão “Editar” que permita modificar o objetivo.</p>
+</li>
+<li>
+<p>2)  Ao clicar em “Atualizar” após a edição, o novo objetivo deve ser salvo e a mensagem “Objetivo atualizado” exibida..</p>
+</li>
+<li>
+<p>3) Após o salvamento, o objetivo pedagógico deve ser exibido na área de informações do projeto para que todos os professores o visualizem.</p>
+</li>
+</ul>
+<h3 id="us2">US2</h3>
+<p><em>US2: Eu, como Professor Coordenador, quero criar um cronograma de atividades para organizar o tempo e as atividades do projeto.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o professor crie um evento no cronograma ao preencher os campos “Data”, “Atividade” e “Entrega”..</p>
+</li>
+<li>
+<p>2) O cronograma completo, contendo todos os eventos, deve estar visível para professores, alunos e responsáveis ao acessarem a página do projeto..</p>
+</li>
+<li>
+<p>3) Quando um evento for modificado, o sistema deve enviar automaticamente uma notificação (via e-mail) com a mensagem “Cronograma atualizado” para todos os usuários cadastrados..</p>
+</li>
+</ul>
+<h3 id="us3">US3</h3>
+<p><em>US3: Eu, como Professor Coordenador, quero estabelecer disciplinas participantes para integrar as diferentes áreas do conhecimento.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o professor selecione uma disciplina de uma lista e clique em “Adicionar” para vinculá-la ao projeto.</p>
+</li>
+<li>
+<p>2) O sistema deve permitir que o professor remova uma disciplina clicando em “Remover” ao lado da disciplina já adicionada..</p>
+</li>
+<li>
+<p>3) O cronograma do projeto deve exibir, em cada evento relacionado, o nome da disciplina e os professores associados..</p>
+</li>
+<li>
+<p>4) Ao adicionar uma disciplina, o sistema deve enviar um e-mail aos professores responsáveis contendo o texto “Você foi adicionado ao projeto [Nome do Projeto] na disciplina [Nome da Disciplina]”.</p>
+</li>
+</ul>
+<h3 id="us5">US5</h3>
+<p><em>US5: Eu, como Professor Coordenador, quero enviar convites para os professores para formalizar a participação e integrar os membros da equipe</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o professor selecione um professor e clique em “Enviar Convite”.</p>
+</li>
+<li>
+<p>2) Quando o professor destinatário responder ao convite, o sistema deve atualizar o status para “Aceito” ou “Rejeitado” e notificar o coordenador com essa atualização.</p>
+</li>
+<li>
+<p>3) O sistema deve possibilitar que o coordenador reenvie o convite se este não for aceito, através de uma ação “Reenviar Convite”.</p>
+</li>
+</ul>
+<h3 id="us12">US12</h3>
+<p><em>US12: Eu, como Professor Coordenador, quero agendar reuniões de acompanhamento com pais e especialistas para facilitar a comunicação e o engajamento dos pais e especialistas no progresso do aluno.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o professor agende uma reunião preenchendo os campos “Data”, “Hora” e “Participantes” e clicando em “Agendar”, registrando a reunião no calendário do projeto..</p>
+</li>
+<li>
+<p>2) Ao agendar a reunião, o sistema deve enviar automaticamente convites por e-mail a todos os participantes com o assunto “Convite para reunião de acompanhamento”..</p>
+</li>
+<li>
+<p>3) Se o professor editar os detalhes da reunião, o sistema deve atualizar a reunião quando o botão “Atualizar” for clicado e notificar os participantes sobre a alteração.</p>
+</li>
+<li>
+<p>4) Se o professor cancelar a reunião, o sistema deve removê-la do calendário e enviar uma notificação de cancelamento aos participantes.</p>
+</li>
+</ul>
+<p><img alt="" src="../../assets/Crit2_USM.png"></p>
+<h3 id="us13">US13</h3>
+<p><em>US13: Eu, como Professor Participante, quero criar atividades e planos de aula para garantir que as aulas estejam alinhadas com os objetivos do projeto interdisciplinar.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o professor crie uma atividade ao preencher os campos “Título”, “Descrição”, “Data de Entrega” e “Objetivos”..</p>
+</li>
+<li>
+<p>2) O sistema deve permitir que o professor edite uma atividade antes da execução desta ao clicar em “Editar”..</p>
+</li>
+</ul>
+<h3 id="us16">US16</h3>
+<p><em>US16: Eu, como Professor Participante, quero compartilhar dados de progresso das atividades com outros professores para garantir que todos se atualizem sobre o progresso e adaptem as atividades conforme necessário.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o professor selecione uma atividade e clique em “Compartilhar Dados” com status, pontuação ou feedback dos alunos.</p>
+</li>
+<li>
+<p>2) O sistema deve possibilitar que o professor escolha, por meio de opções marcáveis, quais dados específicos deseja compartilhar e, ao confirmar, os dados sejam salvos para visualização..</p>
+</li>
+<li>
+<p>3) Os dados compartilhados devem ser exibidos em formato visual (gráficos, tabelas ou listas) quando outros professores acessarem a área “Dados Compartilhados”.</p>
+</li>
+<li>
+<p>4) O professor deve poder adicionar comentários ou notas explicativas aos dados compartilhados para contextos adicionais.</p>
+</li>
+</ul>
+<h3 id="us19">US19</h3>
+<p><em>US19: Eu, como Professor Participante, quero criar tarefas colaborativas para promover a colaboração entre os professores e enriquecer a experiência de ensino.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o professor crie uma tarefa colaborativa preenchendo os campos “Descrição”, “Data de Entrega” e “Objetivos”.</p>
+</li>
+<li>
+<p>2) A tarefa colaborativa criada deve ser exibida na seção “Tarefas Colaborativas” com todas as suas informações detalhadas.</p>
+</li>
+<li>
+<p>3) O sistema deve permitir que o professor atribuam a tarefa a outros professores selecionando-os e clicando em “Atribuir”.</p>
+</li>
+<li>
+<p>4) O professor deve poder adicionar comentários ou notas explicativas aos dados compartilhados para contextos adicionais.</p>
+</li>
+</ul>
+<h3 id="us21">US21</h3>
+<p><em>US21: Eu, como Professor Participante, quero visualizar as contribuições de outros professores  para garantir que todos estão alinhados e colaborando nas atividades do projeto.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o professor acesse a área “Contribuições dos Professores” e, ao clicar em um item, exiba os detalhes da contribuição, incluindo o nome do professor, a descrição e a data.</p>
+</li>
+<li>
+<p>2) A lista de contribuições deve apresentar o status de conclusão de cada item.</p>
+</li>
+<li>
+<p>3) Ao clicar em uma contribuição específica, o sistema deve exibir os documentos ou recursos associados à contribuição.</p>
+</li>
+</ul>
+<h3 id="us23">US23</h3>
+<p><em>US23: Eu, como Aluno, quero confirmar minha inscrição no projeto para garantir minha participação e receber todas as informações relacionadas ao projeto.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve exibir a lista de projetos disponíveis para inscrição.</p>
+</li>
+<li>
+<p>2) O aluno deve poder se inscrever em um projeto com um único clique em “Inscrever-se” e obter confirmação imediata.</p>
+</li>
+<li>
+<p>3) O sistema deve enviar uma confirmação de inscrição via e-mail com o texto “Inscrição confirmada.</p>
+</li>
+</ul>
+<p><img alt="" src="../../assets/Crit3_USM.png"></p>
+<h3 id="us25">US25</h3>
+<p><em>US25: Eu, como Aluno, quero submeter minhas atividades práticas para que elas sejam avaliadas e acompanhadas pelos professores.</em></p>
+<ul>
+<li>
+<p>1) As atividades devem ser registradas com informações sobre a data de entrega e status.</p>
+</li>
+<li>
+<p>2) O sistema deve permitir anexar arquivos ou links, conforme necessário, para cada atividade.</p>
+</li>
+<li>
+<p>3) Após a submissão, o sistema deve exibir uma mensagem de confirmação “Atividade submetida com sucesso”.</p>
+</li>
+</ul>
+<h3 id="us32">US32</h3>
+<p><em>US30: Eu, como Pais/Responsável, quero visualizar relatórios de progresso do meu filho para acompanhar sua evolução e entender as áreas em que ele pode melhorar.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve gerar um relatório que inclua dados das atividades, resultados e feedback quando o responsável acessar a área “Relatórios”.</p>
+</li>
+<li>
+<p>2) O relatório gerado deve ser exibido em formato visual (como lista ou gráfico) de forma clara para o responsável.</p>
+</li>
+</ul>
+<h3 id="us33">US33</h3>
+<p><em>US31: Eu, como Pais/Responsável, quero confirmar minha presença em eventos  para garantir minha participação nas atividades importantes do projeto.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve registrar a confirmação de presença quando o responsável clicar em “Confirmar Presença” na página do evento, marcando o evento com o status “Confirmado”.</p>
+</li>
+<li>
+<p>2) O sistema deve enviar um lembrete automático por e-mail com o texto “Lembrete: o evento [Nome] ocorrerá em breve” cerca de 24 horas antes do evento para os responsáveis confirmados.</p>
+</li>
+<li>
+<p>3) O sistema deve permitir que o responsável altere  sua confirmação clicando em “Editar Confirmação”, atualizando o status exibido na página do evento.</p>
+</li>
+</ul>
+<h3 id="us37">US37</h3>
+<p><em>US35: Eu, como Especialista Externo, quero enviar feedback aos alunos sobre o progresso no projeto  para orientá-los no aprimoramento de suas habilidades e participação.</em></p>
+<ul>
+<li>
+<p>1) O sistema deve permitir que o especialista insira feedback em um campo específico e clique em “Enviar”, registrando o feedback na atividade correspondente.</p>
+</li>
+<li>
+<p>2) O feedback registrado deve ser exibido de forma clara quando a atividade for visualizada por alunos e professores.</p>
+</li>
+<li>
+<p>3) O sistema deve apresentar o histórico de feedbacks, incluindo a data e o nome do especialista, junto com cada comentário.</p>
+</li>
+<li>
+<p>4) O sistema deve oferecer uma opção “Exportar para PDF” que, ao ser acionada, gere um arquivo PDF contendo todo o histórico de feedback.O relatório deve ser exportável para PDF.</p>
+</li>
+</ul></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../PBB/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: PBB - Product Backlog Building">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                PBB - Product Backlog Building
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Apresentacao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Apresentação (Entrega 3)">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Apresentação (Entrega 3)
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tabs", "navigation.path", "navigation.footer", "navigation.sections", "navigation.expantion", "search.share", "search.suggest", "search.highlight", "toc.follow"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
