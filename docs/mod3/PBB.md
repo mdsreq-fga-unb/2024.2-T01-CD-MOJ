@@ -52,28 +52,29 @@ Ana supervisiona as operações da TechFix e busca constantemente melhorar a pro
 ### US01
 *US01: Eu, como técnico de campo, quero registrar informações do serviço técnico no sistema móvel para registros em tempo real e redução de erros.*
 
-- 1) O técnico deve ser capaz de acessar o sistema móvel utilizando credenciais exclusivas.
+- 1) O técnico deverá conseguir realizar login no sistema móvel utilizando credenciais exclusivas previamente cadastradas e após isso exibir a mensagem “Login realizado com sucesso”.
 
-- 2) O sistema deve permitir o preenchimento de campos obrigatórios para registrar informações do serviço.
+- 2) O sistema deverá exibir todos os campos obrigatórios para o registro do serviço e impedir a submissão do formulário se algum desses campos não estiver preenchido, exibindo mensagem de erro.
 
-- 3) Após o registro, os dados devem ser sincronizados automaticamente com o sistema central em até 5 minutos.
+- 3) Após a submissão do registro, o sistema deverá sincronizar automaticamente os dados com o sistema central em, no máximo, 5 minutos.
 
 ### US02
-*US2: Eu, como técnico de campo, quero sincronizar os dados coletados com o sistema central para acesso rápido a guias técnicas e históricos.*
+*US2: Eu, como técnico de campo, quero que os registros de atendimento realizados no modo offline sejam automaticamente sincronizados com o sistema central assim que a conectividade for restabelecida para que guias técnicos e históricos estejam sempre atualizados.*
 
 | **Cenário** | Sincronização de dados coletados com o sistema central |
 |-------------|--------------------------------------------------------|
-| **Dado**    | que o técnico de campo registre informações no sistema móvel durante um atendimento |
-| **E**       | o sistema móvel tenha conectividade com o sistema central |
-| **Quando**  | o técnico acionar a opção de sincronização |
-| **Então**   | os dados serão transferidos automaticamente para o sistema central, mantendo a consistência e integridade |
+| **Dado**    | que o técnico de campo tenha registrado informações obrigatórias (por exemplo, ID do cliente, descrição do serviço, data/hora) no sistema móvel durante um atendimento |
+| **E**       | que o dispositivo esteja conectado à rede (com latência de até 50 ms, medida por um teste de conectividade) |
+| **Quando**  | o técnico acionar o botão “Sincronizar” na interface de registro |
+| **Então**   | o sistema deverá transferir todos os registros pendentes para o sistema central, verificando a integridade dos dados  |
+| **E**       | a sincronização deverá ser concluída em até 2 minutos, com mensagem de “Sincronização realizada com sucesso” exibida na interface. |
 
 
 ### US03
 
 *US3: Eu, como técnico de campo, quero consultar os históricos técnicos no local do cliente para melhor produtividade e diagnósticos mais rápidos.*
 
-- 1) O sistema deve disponibilizar uma interface para pesquisa por cliente ou número de solicitação.
+- 1) O sistema deverá disponibilizar uma interface de pesquisa que permita buscar históricos por cliente ou número de solicitação com resultados exibidos em menos de 3 segundos.
 
 - 2) Os históricos devem incluir informações como serviços realizados, peças trocadas e notas técnicas.
 
@@ -84,7 +85,7 @@ Ana supervisiona as operações da TechFix e busca constantemente melhorar a pro
 ### US04
 *US4: Eu, como atendente, quero organizar os agendamentos com base na disponibilidade e localização dos técnicos para processos mais organizados e eficientes.*
 
-- 1) O sistema deve exibir um calendário integrado com a agenda de todos os técnicos.
+- 1) O sistema deverá exibir um calendário integrado contendo a agenda de todos os técnicos cadastrados, permitindo a visualização clara dos horários agendados.
 
 - 2) Os horários disponíveis devem ser atualizados em tempo real.
 
@@ -96,10 +97,11 @@ Ana supervisiona as operações da TechFix e busca constantemente melhorar a pro
 
 | **Cenário** | Enviar notificações automáticas sobre agendamentos |
 |-------------|------------------------------------------------------|
-| **Dado**    | que a atendente tenha feito um agendamento ou alterado o status de uma solicitação |
-| **E**       | o sistema tenha os dados dos técnicos e clientes envolvidos |
-| **Quando**  | o agendamento ou a solicitação for atualizada |
-| **Então**   | o sistema deve enviar automaticamente uma notificação para o técnico e para o cliente, informando sobre o novo horário ou status da solicitação |
+| **Dado**    | que a atendente atualize um agendamento (por exemplo, alteração do horário) utilizando a interface de gerenciamento de agendamentos |
+| **E**       | que os dados de contato (e-mail) do técnico e do cliente estejam cadastrados e válidos |
+| **Quando**  | a atualização for confirmada (clicando em “Salvar Alteração”) |
+| **Então**   | o sistema deverá enviar automaticamente uma notificação para o técnico e para o cliente, contendo a nova data e horário |
+| **E**       | essa notificação deverá ser enviada em até 10 segundos após a confirmação, podendo ser verificada via logs de envio. |
 
 
 ### US06
@@ -107,12 +109,12 @@ Ana supervisiona as operações da TechFix e busca constantemente melhorar a pro
 
 | **Cenário** | Atualizar agendamentos em caso de imprevistos |
 |-------------|-----------------------------------------------|
-| **Dado**    | que um imprevisto tenha ocorrido que impacte o agendamento |
-| **E**       | a atendente tenha acesso à agenda dos técnicos e à disponibilidade atualizada |
-| **Quando**  | a atendente atualizar o agendamento |
-| **Então**   | o sistema deve refletir a nova data e hora do agendamento |
-| **E**       | o sistema deve enviar notificações automáticas para os técnicos e clientes sobre a atualização |
-| **E**       | o sistema deve sugerir alternativas, caso o novo horário proposto gere um conflito |
+| **Dado**    | que um imprevisto ocorra (por exemplo, um técnico fique indisponível) |
+| **E**       | a atendente acesse a agenda pelo módulo “Gerenciar Agendamentos” (acessível via menu “Agendamentos”) |
+| **Quando**  | ela alterar o horário do agendamento e confirmar a alteração |
+| **Então**   | o sistema deverá atualizar imediatamente o novo horário (dentro de 5 segundos) |
+| **E**       | enviar notificações automáticas para o técnico e para o cliente com o novo horário, utilizando canais previamente configurados |
+| **E**       | caso o novo horário gere conflito, o sistema deverá sugerir pelo menos duas alternativas de horários disponíveis na mesma tela. |
 
 ![](../assets/us3.png)
 
@@ -129,57 +131,53 @@ Ana supervisiona as operações da TechFix e busca constantemente melhorar a pro
 ### US08
 *US8: Eu, como cliente corporativo, quero visualizar o histórico de solicitações no portal para redução de dúvidas e reclamações.*
 
-- 1) O histórico deve incluir todas as solicitações realizadas nos últimos 12 meses
+- 1) O histórico deve incluir todas as solicitações realizadas nos últimos 12 meses.
 
-- 2) Cada entrada deve conter informações como data, descrição do serviço e técnico responsável
+- 2) Cada entrada deve conter informações como data, descrição do serviço e técnico responsável.
 
-- 3) O histórico deve permitir busca e filtragem por tipo de serviço ou data.
+- 3) O sistema deverá permitir a busca e filtragem do histórico por tipo de serviço e intervalo de datas com os resultados sendo exibidos em menos de 3 segundos.
 
 
 ### US09
 *US9: Eu, como cliente corporativo, quero receber notificações sobre atualizações de solicitações para ter mais confiança e fidelidade*
 
-| **Cenário** | Receber notificações sobre atualizações de solicitações |
-|-------------|----------------------------------------------------------|
-| **Dado**    | que o cliente corporativo tenha uma solicitação em andamento |
-| **E**       | o status da solicitação tenha mudado |
-| **Quando**  | a solicitação for atualizada em qualquer uma das suas etapas |
-| **Então**   | o cliente deve ser notificado sobre a alteração de status por e-mail ou SMS |
-| **E**       | o portal do cliente deve exibir automaticamente o status atualizado da solicitação |
-
 
 ![](../assets/us4.png)
 
 ### US10
-*US10: Eu, como diretora de operações, quero consolidar as métricas operacionais em dashboards para obter dados consolidados para decisões rápidas e precisas.*
+*US10: Eu, como diretora de operações, quero visualizar um dashboard que consolide métricas-chave  para tomar decisões rápidas e precisas sobre a eficiência operacional..*
 
-- 1) O dashboard deve exibir métricas como número de serviços concluídos, tempo médio de atendimento e feedback do cliente.
+- 1) O dashboard deverá apresentar, de forma clara, as métricas operacionais, incluindo o número total de serviços concluídos, tempo médio de atendimento e índice de feedback do cliente.
 
 - 2) Os dados devem ser atualizados automaticamente a cada 24 horas.
 
-- 3) O dashboard deve permitir personalização de filtros por período, região ou tipo de serviço.
-
+- 3) O sistema deverá permitir a personalização de filtros no dashboard por período, região e tipo de serviço com as alterações refletidas imediatamente na visualização.
 
 ### US11
-*US11: Eu, como diretora de operações, quero gerar relatórios de auditoria automaticamente para identificação de gargalos e oportunidades de melhoria.*
+*US11: Eu, como diretora de operações, quero gerar automaticamente um relatório de auditoria para identificação de gargalos e oportunidades de melhoria.*
 
 | **Cenário** | Gerar relatórios de auditoria de forma automática |
 |-------------|-----------------------------------------------------|
-| **Dado**    | que o sistema esteja operando normalmente e coletando dados de operações |
-| **Quando**  | a diretora de operações solicitar a geração de um relatório de auditoria |
-| **Então**   | o sistema deve gerar o relatório automaticamente, com dados sobre os serviços realizados, tempos de resposta, e possíveis desvios de processo |
-| **E**       | o relatório deve ser enviado para a diretora de operações no formato solicitado (PDF, Excel, etc.) |
+| **Dado**    | que o sistema esteja registrando os dados de operações (por exemplo, registros de atendimentos, tempo médio de atendimento) |
+| **E**       | a diretora de operações acesse o painel “Relatórios de Auditoria” clicando no ícone “Auditoria” no menu principal |
+| **Quando**  | ela selecionar a opção “Gerar Relatório PDF” e confirmar a ação |
+| **Então**   | o sistema deverá gerar automaticamente um relatório em PDF contendo:
+Total de serviços realizados nos últimos 30 dias
+Tempo médio de atendimento
+Quantidade de reatendimentos |
+| **E**       | o relatório deverá estar disponível para download em até 1 minuto. |
 
 
 ### US12
-*US12: Eu, como diretora de operações, quero exportar dados consolidados para redução de custos operacionais.*
+*US12: Eu, como diretora de operações, quero exportar um relatório consolidado para redução de custos operacionais.*
 
 | **Cenário** | Exportação de dados consolidados para planejamento estratégico |
 |-------------|----------------------------------------------------------------|
-| **Dado**    | que a diretora de operações tenha acesso autorizado ao painel de relatórios |
-| **E**       | os dados estejam atualizados no sistema |
-| **Quando**  | a diretora selecionar a opção de exportar dados |
-| **Então**   | o sistema gerará um arquivo consolidado em formato selecionado (PDF, Excel), pronto para download |
+| **Dado**    | que a diretora de operações acesse o painel “Relatórios Consolidados” por meio do menu “Planejamento Estratégico” |
+| **E**       | que os dados exibidos estejam atualizados (com um timestamp de “Última Atualização” não superior a 5 minutos) |
+| **Quando**  | ela clicar no botão “Exportar para Excel” e confirmar a ação |
+| **Então**   | o sistema deverá gerar um arquivo Excel (.xlsx) contendo os dados consolidados (por exemplo, número de serviços realizados, tempo médio de atendimento, custo operacional estimado) |
+| **E**       | E o arquivo deverá estar pronto para download em até 1 minuto. |
 
 
 ![](../assets/us5.png)
@@ -187,68 +185,50 @@ Ana supervisiona as operações da TechFix e busca constantemente melhorar a pro
 ### US13
 *US13: Eu, como cliente corporativo, quero receber pesquisas de satisfação após o atendimento para feedback em tempo real e de fácil acesso.*
 
-- 1) A pesquisa deve ser enviada automaticamente por e-mail ou SMS após a conclusão do serviço.
+- 1) O sistema deverá enviar automaticamente uma pesquisa de satisfação por e-mail no prazo máximo de 5 minutos após a conclusão do serviço.
 
-- 2) O questionário deve incluir perguntas objetivas e espaço para comentários.
+
+- 2) O questionário deve incluir, no mínimo, 5 perguntas objetivas e um campo para comentários abertos.
 
 - 3) As respostas devem ser registradas no sistema central e associadas ao cliente.
 
 ### US14
 *US14: Eu, como diretora de operações, quero analisar os resultados do feedback para melhor compreensão da experiência do cliente.*
 
-| **Cenário** | Analisar os resultados do feedback para identificar áreas de melhoria |
-|-------------|-----------------------------------------------------------------------|
-| **Dado**    | que os clientes tenham preenchido a pesquisa de satisfação após o atendimento |
-| **E**       | as respostas tenham sido registradas no sistema |
-| **Quando**  | a diretora de operações acessar a seção de feedback |
-| **Então**   | ela deve visualizar os resultados consolidados, com filtros por tipo de serviço, técnico e data |
-| **E**       | deve ser possível identificar padrões de insatisfação ou áreas que necessitam de melhorias |
-
 
 ### US15
-*US15: Eu, como diretora de operações, quero gerar relatórios consolidados do feedback para implementação mais rápida de melhorias.*
+*US15: Eu, como diretora de operações, quero quero gerar um relatório consolidado dos feedbacks dos clientes para implementação mais rápida de melhorias.*
 
 | **Cenário** | Gerar relatórios consolidados de feedback |
 |-------------|-------------------------------------------|
-| **Dado**    | que a diretora de operações queira implementar melhorias baseadas nos feedbacks dos clientes |
-| **Quando**  | ela solicitar um relatório consolidado sobre as respostas dos clientes |
-| **Então**   | o sistema deve gerar um relatório consolidado, permitindo a visualização de padrões, pontos fortes e fracos, e sugestões de melhorias |
-| **E**       | o relatório deve ser exportável em formatos como Excel, PDF, ou gráficos interativos para apresentações |
+| **Dado**    | que a diretora de operações acesse a seção “Feedback Consolidado” pelo menu “Relatório Consolidado” |
+| **E**       | que existam, no sistema, pelo menos 30 registros de feedback dos últimos 12 meses |
+| **Quando**  | ela clicar no botão “Gerar Relatório Consolidado em PDF” e selecionar o período desejado (Exemplo: últimos 6 meses) |
+| **Então**   | o sistema deverá gerar um relatório em PDF contendo:
+Média de satisfação por técnico
+Número de respostas por tipo de serviço
+Principais reclamações extraídas dos comentários
+E o relatório deverá ser disponibilizado para download em até 2 minutos. |
 
 ![](../assets/us6.png)
 
 ### US16
 *US16: Eu, como técnico de campo, quero enviar mensagens instantâneas para a central para comunicação rápida e centralizada.*
 
-- 1) O sistema deve permitir envio de mensagens entre usuários cadastrados com confirmação de entrega.
+- 1) O sistema deverá permitir o envio de mensagens instantâneas entre usuários cadastrados e exibir um indicador de confirmação de entrega para cada mensagem enviada.
 
 - 2) As mensagens devem ser organizadas por categoria, como "Atualização de serviço" ou "Solicitação de suporte".
 
-- 3) As conversas devem ser armazenadas para consulta posterior por até 6 meses.
+- 3) As conversas devem ser armazenadas para consulta posterior por até 6 meses com funcionalidade de busca por data e categoria
 
 
 ### US17
 *US17: Eu, como atendente, quero compartilhar as atualizações de serviços em tempo real com as equipes para redução de erros operacionais.*
 
-| **Cenário** | Compartilhar as atualizações de serviços em tempo real entre as equipes |
-|-------------|--------------------------------------------------------------------------|
-| **Dado**    | que uma atualização de serviço tenha sido realizada (como início ou conclusão de um atendimento) |
-| **E**       | a atendente ou o técnico queira notificar as equipes envolvidas |
-| **Quando**  | a atualização for feita no sistema |
-| **Então**   | o sistema deve enviar automaticamente uma notificação em tempo real para todos os envolvidos, incluindo equipes técnicas e atendentes |
-| **E**       | essas atualizações devem ser acessíveis de forma centralizada e em tempo real |
-
 
 ### US18
 *US18: Eu, como diretora de operações, quero registrar as conversas internas para maior alinhamento entre as equipes.*
 
-| **Cenário** | Registrar conversas internas entre as equipes técnicas e atendentes |
-|-------------|---------------------------------------------------------------------|
-| **Dado**    | que uma conversa interna esteja acontecendo entre as equipes técnicas e atendentes |
-| **Quando**  | a mensagem for enviada ou recebida |
-| **Então**   | a conversa deve ser registrada no sistema, para garantir que todas as informações sejam acessíveis no futuro |
-| **E**       | as conversas devem ser armazenadas por até 6 meses para consulta posterior |
-| **E**       | as mensagens devem ser organizadas de acordo com a categoria e o status do serviço |
 
 
 
