@@ -60,4 +60,7 @@
 | **Construção**   |                                         |                                                                                   |                                        |                                                                    |
 |                  | Verificação e validação                 | Validar se os requisitos estão de acordo com o projeto                            | Feedback                               | Feedback do cliente                                                |
 |                  | Verificação e validação                 | Foco em verificação do que foi construído                                         | DoD/DoR                                | Guiar tanto o cliente como o grupo durante a verificação/validação |
+|  | Organização e atualização de requisitos                                                    | Atualização do backlog                                |  MoSCoW                                               | Backlog atualizado
+| 
+
 | **Transição**    | -                                       | -                                                                                 | -                                      | -                                                                  |
