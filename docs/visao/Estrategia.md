@@ -20,7 +20,7 @@
 
 ## Justificativa
 
-Depois da troca constante entre processos de desenvolvimento de software, nos estabelecemos no Cascata, pois é um modelo que inconscientemente todos da equipe seguiram no decorrer do projeto.
+Depois da troca entre processos de desenvolvimento de software, nos estabelecemos no Cascata, pois é um modelo que inconscientemente todos da equipe seguiram no decorrer do projeto, porém fizemos o uso do OpenUP para a estruturação do nosso cronograma e para guiar outros aspectos do projeto.
 
 ## Utilização do Processo em Cascata
 
@@ -42,8 +42,8 @@ Envolvimento do Cliente: O cliente participará principalmente nas fases de leva
 
 ## ~~Utilização do processo OpenUP~~
 
-~~Nossa divisão de iterações será de acordo com o OpenUP e a partir dele focaremos bastante nas respostas e avaliações do professor Bruno Ribas para prosseguir com o desenvolvimento numa microescala. Também ocorrerá reuniões informais com o cliente para fazer alinhamentos sobre cada incremento que será entregue. Optamos por incorporar o OpenUP (na estrutura de Inception, Elaboration, Construction e Transition) na nossa estratégia de desenvolvimento de software da seguinte forma:~~
+Nossa divisão de iterações será de acordo com o OpenUP e a partir dele focaremos bastante nas respostas e avaliações do professor Bruno Ribas para prosseguir com o desenvolvimento numa microescala. Também ocorrerá reuniões informais com o cliente para fazer alinhamentos sobre cada incremento que será entregue. Optamos por incorporar o OpenUP (na estrutura de Inception, Elaboration, Construction e Transition) na nossa estratégia de desenvolvimento de software da seguinte forma:
 
-~~**Inception** e **Elaboração**: definição inicial do projeto. Assim como a elicitação e descoberta de requisitos com o cliente, também aplicamos a técnica de brainstorming sobre os problemas e soluções propostas entre o time, além de estabelecermos o documento de visão do produto e posteriormente a análise, consenso e declaração dos requisitos, assim como épicos, temas e histórias de usuário.~~
+**Inception** e **Elaboração**: definição inicial do projeto. Assim como a elicitação e descoberta de requisitos com o cliente, também aplicamos a técnica de brainstorming sobre os problemas e soluções propostas entre o time, além de estabelecermos o documento de visão do produto e posteriormente a análise, consenso e declaração dos requisitos, assim como épicos, temas e histórias de usuário.
 
- ~~**Construção** e **Transição**: construção do software propriamente dito. Codificação, testagem e validação do produto com cliente. Aplicaremos técnicas como DoR (Definition of Ready) e DoD (Definition of Done) para fazer validações com o cliente e entre o time a respeito de requisitos e incrementos de software.~~
+ **Construção** e **Transição**: construção do software propriamente dito. Codificação, testagem e validação do produto com cliente. Aplicaremos técnicas como DoR (Definition of Ready) e DoD (Definition of Done) para fazer validações com o cliente e entre o time a respeito de requisitos e incrementos de software.
