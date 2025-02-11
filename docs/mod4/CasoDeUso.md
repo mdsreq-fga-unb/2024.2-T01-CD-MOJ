@@ -2,6 +2,12 @@
 
 ![](../assets/CasoU0.png)
 
+## Quadro do Miro
+
+<iframe src="https://miro.com/app/board/uXjVLhe14Zw=/" width="100%" height="600" frameborder="0"></iframe>
+
+*Link do Miro:* [MIRO](URL "https://miro.com/app/board/uXjVLhe14Zw=/")
+
 ### Caso de Uso - Primeira Parte (Usuário)
 
 ![](../assets/CasoU01.png)

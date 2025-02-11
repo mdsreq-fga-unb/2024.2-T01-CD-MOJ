@@ -24,9 +24,9 @@ Ana supervisiona as operações da TechFix e busca constantemente melhorar a pro
 
 ## Quadro do Miro
 
-<iframe src="https://miro.com/app/board/uXjVL7x-bvg=/" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="https://miro.com/app/board/uXjVLhe14Zw=/" width="100%" height="600" frameborder="0"></iframe>
 
-*Link do Miro:* [MIRO](URL "https://miro.com/app/board/uXjVL7x-bvg=/")
+*Link do Miro:* [MIRO](URL "https://miro.com/app/board/uXjVLhe14Zw=/")
 
 ## Problemas e Expectativas
 
